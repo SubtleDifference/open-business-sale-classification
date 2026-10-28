@@ -60,7 +60,7 @@ h1,h2,h3 {
   letter-spacing:-.035em;
 }
 h1 {
-  font-size:clamp(2.75rem,4.5vw,4.4rem);
+  font-size:clamp(2.75rem,4.5vw,4.1rem);
   font-weight:600;
   margin-bottom:24px;
 }

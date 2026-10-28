@@ -1,0 +1,163 @@
+alias,category_id,note
+3PL,c0238,Warehousing and fulfilment for trade customers.
+Advertising and Marketing,c0248,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+AI services,c0197,Customer data/AI services rather than merely using AI in an unrelated business.
+air conditioning,c0227,"Heating, cooling and refrigeration services."
+app business,c0258,Owned non-SaaS software/app product rather than customer development.
+art supplies,c0252,"Retail of art and craft products, rather than experiences."
+bag repairs,c0178,Repair service rather than retail alone.
+barber,c0032,Hair salon and barber services.
+beautician,c0030,Beauty treatment services rather than product supply.
+beauty product supply,c0129,Choose for consumer retail rather than wholesale.
+beauty product supply,c0256,Choose for wholesale/trade supply.
+Beauty Products,c0129,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+Beauty Products,c0256,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+beauty wholesaler,c0256,Wholesale/trade supply rather than consumer retail.
+boarding kennels,c0003,Overnight pet boarding.
+body corporate,c0233,Strata/body-corporate management.
+bottle shop,c0050,Retail sale of packaged alcoholic beverages.
+burger shop,c0064,Takeaway or quick-service food operation.
+camping shop,c0255,Outdoor and camping product retail.
+car parts,c0014,Motor vehicle parts and accessories.
+children's playcentre,c0254,Children's play/activity business rather than childcare.
+cloud hosting,c0196,Hosting/infrastructure service rather than an owned SaaS product.
+coffee shop,c0053,Cafe or coffee shop operation.
+coin laundromat,c0245,Laundry service rather than general building cleaning.
+coin laundry,c0245,Laundry service rather than general building cleaning.
+computer support,c0247,Customer IT support rather than owned software.
+content website,c0249,Owned content/audience business.
+craft shop,c0252,Retail of craft and hobby products.
+cyber security,c0195,Information-system security rather than physical guarding.
+desktop software,c0258,Owned desktop or licensed software product.
+digital agency,c0192,Web-development-led agency candidate; choose according to actual activity.
+digital agency,c0248,Marketing-led agency candidate.
+Digital Marketing,c0248,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+digital publisher,c0249,Owned publications/content rather than production for customers.
+Digital Publishing and Content,c0249,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+disability services,c0202,Disability support services; the phrase does not establish funding or registration.
+dog grooming,c0157,Non-clinical animal care/grooming.
+dog wash,c0157,Non-clinical animal care/grooming.
+dry cleaner,c0245,Laundry and garment-care service.
+e-commerce,c0218,Online retail of own goods; the category does not identify which products are sold.
+ecommerce,c0218,Online retail of own goods.
+EV charging,c0208,"Charging infrastructure operation, installation or maintenance."
+event coordinator,c0253,Event planning and coordination services.
+fish and chips,c0064,Takeaway fish-and-chip food preparation and sale.
+fish n chips,c0064,Takeaway food operation.
+florist and nursery,c0071,Use for plant propagation/growing.
+florist and nursery,c0100,Use for mixed garden retail; the phrase combines different activities.
+florist and nursery,c0257,Use for cut flowers and arrangements.
+Florists and Plant Shops,c0071,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+Florists and Plant Shops,c0100,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+Florists and Plant Shops,c0257,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+food truck,c0064,Food preparation/sale from a mobile outlet.
+freight forwarder,c0074,Freight coordination rather than carriage alone.
+fulfillment,c0238,Warehousing/order fulfilment rather than transport alone.
+furniture shop,c0250,Furniture and household-goods retail.
+furniture store,c0250,Furniture and household-goods retail.
+General IT Services,c0247,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+general practitioner,c0037,General medical primary-care practice.
+GP clinic,c0037,General medical primary-care practice.
+hairdresser,c0032,Hair salon services.
+hardware store,c0251,Hardware and building-supply retail.
+hearing clinic,c0225,Audiology/hearing service.
+hobby shop,c0252,Retail of hobby products.
+home care,c0203,Home/community care and personal support.
+homewares and hardware,c0250,Use for household goods/furnishings.
+homewares and hardware,c0251,Use for hardware/building supplies; choose both only for distinct activities.
+Homewares and Hardware Retail,c0250,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+Homewares and Hardware Retail,c0251,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+HVAC,c0227,"Heating, ventilation and air conditioning services."
+indoor play center,c0254,Children's play/activity business rather than childcare.
+indoor play centre,c0254,Children's play/activity business rather than childcare.
+IT consultancy,c0247,Implementation/support context; choose a specialist service when that is primary.
+kids play centre,c0254,Children's play/activity business rather than childcare.
+landscaper,c0067,Gardening/landscaping services.
+laundromat,c0245,"Laundry business, including self-service operations."
+lawn mowing,c0067,Garden and grounds maintenance.
+liquor store,c0050,Retail sale of packaged alcoholic beverages.
+lottery outlet,c0131,"Lottery-product retail, with or without a newsagency."
+lotto,c0131,"Lottery-product retail, with or without a newsagency."
+luggage sales and repairs,c0125,Use for the retail sale of bags/luggage; add a repair category only where a distinct repair service exists.
+luggage sales and repairs,c0178,Use for the repair activity; add a retail category only where goods are sold.
+luggage shop,c0125,"Retail sale of bags, luggage and travel accessories."
+Managed IT Services,c0247,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+managed service provider,c0247,Customer IT support and managed services.
+marketing agency,c0248,Marketing and advertising services across channels.
+mechanic,c0024,Road-vehicle mechanical workshop.
+medical clinic,c0036,Other specialist/outpatient candidate; determine the clinical activity.
+medical clinic,c0037,General primary-care practice candidate.
+mobile app,c0258,Owned non-SaaS application product; customer development uses Software Development.
+Mobile Applications,c0258,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+mobile food van,c0064,Food preparation/sale from a mobile outlet; mobility alone is not an industry.
+MSP,c0247,IT managed-service provider context.
+newsletter business,c0249,Owned publication/content business.
+nursing home,c0040,Residential aged care rather than retirement living.
+online shop,c0218,"Retail of the operator's own goods online, rather than a marketplace."
+OT practice,c0200,Occupational therapy practice services.
+outdoor store,c0255,Outdoor recreation product retail.
+panel beater,c0025,Vehicle body repair and refinishing.
+petrol station,c0026,Vehicle fuel retail business.
+photographer,c0259,Photography services for customers.
+Photography and Video Services,c0259,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+physio,c0199,Physiotherapy practice services.
+pizza shop,c0061,Choose for a primarily dine-in pizza restaurant.
+pizza shop,c0064,Choose for a primarily takeaway or quick-service pizza operation.
+pizzeria,c0061,Choose for a primarily dine-in restaurant; takeaway-focused operations use Takeaway Food.
+pizzeria,c0064,Choose for a primarily takeaway or quick-service operation.
+podcast production,c0259,Production for customers; an owned podcast publication uses Publishing and Content Businesses.
+PPC agency,c0248,Paid online advertising service.
+Publishing and Media,c0249,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+Publishing and Media,c0259,"Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+SaaS,c0188,Owned subscription software service.
+salon supplies,c0256,Wholesale/trade supply to salons.
+SEO agency,c0248,Search marketing service rather than owned media.
+smash repairer,c0025,Vehicle collision body repair and refinishing.
+social media agency,c0248,Marketing service rather than owned content publishing.
+software agency,c0189,Software development for customers.
+solar installer,c0207,Renewable energy installation/service rather than electricity generation.
+specialist medical clinic,c0036,Use only when no named specialist practice/facility category applies.
+speech therapist,c0223,Speech pathology practice services.
+sporting goods,c0255,Product retail rather than a gym or sports activity.
+subscription content,c0249,Owned subscription content rather than software-as-a-service.
+Tatts,c0131,"Lottery-product retail, with or without a newsagency."
+Tattslotto,c0131,"Lottery-product retail, with or without a newsagency."
+The Lott,c0131,"Lottery-product retail, with or without a newsagency."
+tires,c0014,Vehicle tyre/parts sales candidate.
+tires,c0024,Tyre fitting and wheel-service candidate.
+trucking,c0244,Road freight operation rather than truck sales.
+tyre sales and fitting,c0014,Use for tyre/vehicle-parts sales; fitting is a separate service activity.
+tyre sales and fitting,c0024,Use for tyre fitting and wheel servicing; product sales are a separate activity.
+tyres,c0014,Vehicle tyre/parts sales candidate.
+tyres,c0024,Tyre fitting and wheel-service candidate.
+vet clinic,c0220,Veterinary clinical services.
+videographer,c0259,Video production services for customers.
+web developer,c0192,Web development for customers.
+wedding planner,c0253,"Planning/coordination rather than venue, catering or performer supply alone."
+wedding styling,c0253,Event styling/planning rather than equipment hire alone.
+wrecker,c0028,Vehicle dismantling and used-parts recovery.
+franchised business,c0260,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+franchise business,c0260,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+home business,c0261,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+home-based business,c0261,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+work from home,c0261,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+online business,c0262,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+internet business,c0262,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+web based business,c0262,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+online business with premises,c0262,Suggests both Online Operation and Premises Based; neither establishes the business activity.
+mobile business,c0263,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+mobile services,c0263,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+relocatable business,c0264,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+location independent,c0264,Discovery term only; confirm the operating base can actually move before selecting Relocatable.
+business and property,c0265,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+business property included,c0265,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+freehold going concern,c0265,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+owner operator,c0266,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+owner managed,c0266,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+owner run,c0266,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+managed business,c0267,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+manager operated,c0267,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+management in place,c0267,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+commercial premises,c0268,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+business premises,c0268,Business characteristic only; select at least one activity and confirm the definition against the actual operation.
+online business with premises,c0268,Suggests both Online Operation and Premises Based; neither establishes the business activity.

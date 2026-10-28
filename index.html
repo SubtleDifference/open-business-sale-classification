@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An open source classification reference for businesses for sale, providing shared business activities, optional characteristics and stable identifiers for interoperability between platforms.">
+  <title>Open Business Sale Classification — Catalogue explorer</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./viewer/styles.css">
+  <script src="./viewer/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#activities">Skip to the catalogue</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="#top" aria-label="Open Business Sale Classification home"><span class="mark" aria-hidden="true">OBSC</span><span>Open Business Sale Classification<small>Catalogue explorer</small></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#activities">Activities</a><a href="#characteristics">Characteristics</a><a href="#example">Try an example</a><a href="#interoperability">How it works</a>
+    </nav>
+  </header>
+  <main id="top">
+    <section class="intro wrap" aria-labelledby="page-title">
+      <div class="eyebrow"><span class="draft-tag">Draft reference</span><span id="catalogue-version">Loading catalogue</span></div>
+      <h1 id="page-title">Open Business Sale<br> Classification</h1>
+      <p class="intro-lead">An open source classification reference for businesses for sale.</p>
+      <p class="intro-copy">Help buyers find relevant businesses and enable consistent data exchange between platforms. Portals can retain their existing category names and structures. Explore <strong data-count="activities">—</strong> business activities and <strong data-count="characteristics">—</strong> optional characteristics, with stable IDs to use across different systems.</p>
+      <div class="intro-actions"><a class="button primary" href="#activities">Explore the activities <span aria-hidden="true">↓</span></a><a class="text-link" href="#interoperability">Understand the shared reference <span aria-hidden="true">↗</span></a></div>
+      <p class="draft-note">Voluntary adoption; no software purchase required. No portal or industry-body endorsement is claimed.</p>
+    </section>
+
+    <div class="wrap data-state">
+      <p id="loading" role="status" hidden>Loading the catalogue…</p>
+      <div id="load-error" role="alert" hidden><h2>The catalogue couldn’t be loaded</h2><p id="error-message">Please try again.</p><button class="button" id="retry" type="button">Try again</button> <a href="./viewer/README.md">Local running instructions</a></div>
+      <noscript><p>This explorer needs JavaScript to load the catalogue. The <a href="./taxonomy/categories.json">JSON catalogue</a> and <a href="./taxonomy/categories.csv">CSV source</a> are also available.</p></noscript>
+    </div>
+
+    <div class="explorer wrap" id="explorer" hidden>
+      <div class="catalogue-column">
+        <section id="activities" class="catalogue-section" aria-labelledby="activities-title">
+          <p class="section-number">01 / What the business does</p>
+          <h2 id="activities-title">Browse business activities</h2>
+          <p class="section-intro">Choose only the activities that describe the actual business. One is enough; three is the maximum.</p>
+          <form id="filters" class="filters" role="search" aria-label="Find business activities">
+            <div class="search-field"><label for="search">Search activities</label><div class="search-input"><input id="search" type="search" placeholder="Try coffee, fish &amp; chips or an ID" autocomplete="off" aria-describedby="search-help"><button type="button" id="clear-search" aria-label="Clear search" hidden>Clear</button></div></div>
+            <div><label for="group">Industry group</label><select id="group"><option value="all">All industry groups</option></select></div>
+            <p id="search-help" class="help">Search names and known search terms. A term can suggest more than one activity.</p>
+          </form>
+          <div class="result-toolbar"><p id="result-count" role="status" aria-live="polite"></p><button id="reset-filters" class="text-button" type="button" hidden>Reset filters</button></div>
+          <div id="activity-list" class="activity-list"></div>
+          <div id="empty-results" class="empty-state" hidden><h3>No matching activities</h3><p>Try a different word or choose another industry group. Operating models belong in the separate <a href="#characteristics">Business Characteristics</a> section.</p><button type="button" class="button" id="show-all">Show all activities</button></div>
+          <nav class="pagination" aria-label="Activity result pages"><button class="button" id="previous" type="button">← Previous</button><span id="page-number"></span><button class="button" id="next" type="button">Next →</button></nav>
+        </section>
+
+        <section id="characteristics" class="catalogue-section" aria-labelledby="characteristics-title">
+          <p class="section-number">02 / How it operates or is offered</p>
+          <h2 id="characteristics-title">Business Characteristics</h2>
+          <p class="section-intro">Optional information for better search and filtering. Choose up to three, independently of the activity limit. Characteristics cannot replace an activity, and portals may support or ignore them.</p>
+          <div id="characteristic-list" class="characteristic-list"></div>
+        </section>
+      </div>
+
+      <aside id="example" class="example-column" aria-labelledby="example-title">
+        <div class="example-panel">
+          <p class="section-number">Your local demonstration</p><h2 id="example-title">Try a classification</h2>
+          <p class="help">Add entries from the catalogue. This example stays in this tab; nothing is saved or sent.</p>
+          <fieldset><legend>Business activities <span id="activity-selection-count">0 / 3</span></legend><ul id="selected-activities" class="selected-list"></ul><p id="no-activities" class="selection-placeholder">Add at least one activity.</p></fieldset>
+          <fieldset><legend>Optional characteristics <span id="characteristic-selection-count">0 / 3</span></legend><ul id="selected-characteristics" class="selected-list"></ul><p id="no-characteristics" class="selection-placeholder">None selected. That’s fine.</p></fieldset>
+          <p id="validity" class="validity" role="status" aria-live="polite">Incomplete — choose at least one activity.</p>
+          <details id="json-details"><summary>View the shared IDs as JSON</summary><pre tabindex="0" aria-label="Example classification JSON"><code id="example-json">Choose an activity to generate a complete example.</code></pre></details>
+          <div class="example-actions"><button id="copy-json" class="button primary" type="button" disabled>Copy JSON</button><button id="clear-example" class="text-button" type="button" disabled>Clear example</button></div>
+          <p class="help" id="copy-status" role="status" aria-live="polite"></p>
+          <p class="help example-footnote">A valid classification follows these selection rules. Sender and receiver still need to agree on their mapping and data format.</p>
+        </div>
+      </aside>
+    </div>
+
+    <section id="interoperability" class="interoperability" aria-labelledby="interoperability-title">
+      <div class="wrap">
+        <p class="section-number">03 / A common point of reference</p><h2 id="interoperability-title">Shared meaning.<br>Your own systems.</h2>
+        <p class="section-intro">An upload provider can adopt the shared IDs or map its existing categories to them. A receiving portal maps those IDs to its own names and codes.</p>
+        <ol class="flow" aria-label="Classification exchange"><li><span>01</span><strong>Upload provider</strong><p>Its own categories and terminology</p></li><li><span>02</span><strong>Shared activity IDs</strong><p>A consistent meaning between systems</p></li><li><span>03</span><strong>Advertising portal</strong><p>Its own categories and search structure</p></li></ol>
+        <div class="mapping-example" id="mapping-example" hidden><div><p class="eyebrow">An illustrative mapping</p><h3 id="mapping-name"></h3><code id="mapping-id"></code></div><dl><div><dt>Portal A</dt><dd>Cafes</dd></div><div><dt>Portal B</dt><dd>Food and Hospitality / Cafes</dd></div></dl><p class="help">Conceptual examples only, not actual mappings for named portals. Shared IDs are distinct from a portal’s internal codes.</p></div>
+        <div class="interop-notes"><p><strong>Keep your structure.</strong> Portals can retain their existing categories. Their mappings may stay private.</p><p><strong>Characteristics are optional.</strong> A portal can use them as filters or ignore them while retaining the activity classification.</p><p><strong>Agree the exchange.</strong> Shared IDs require no particular XML format, API or software service. Sender and receiver agree on supported formats, catalogue versions and mapping behaviour.</p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><p>Open Business Sale Classification <span id="footer-version"></span><br><span class="help">A provider-neutral catalogue · Apache 2.0</span></p><div><a href="./taxonomy/categories.json">Download JSON</a><a href="./taxonomy/categories.csv">Category CSV</a><a href="./LICENSE">Licence</a></div></footer>
+  <a id="example-shortcut" class="example-shortcut" href="#example" hidden>View example <span id="shortcut-count"></span> <span aria-hidden="true">↑</span></a>
+  <div class="announcement" id="announcement" role="status" aria-live="polite" aria-atomic="true"></div>
+  <dialog id="details-dialog" aria-labelledby="detail-name"><div class="dialog-header"><p id="detail-group" class="eyebrow"></p><button id="close-detail" class="text-button" type="button">Close <span aria-hidden="true">×</span></button></div><h2 id="detail-name"></h2><p><code id="detail-id"></code> <span class="kind-label">Business activity</span></p><p id="detail-description" class="detail-description"></p><h3>Known search terms</h3><ul id="detail-aliases" class="alias-list"></ul><p id="detail-no-aliases" class="help" hidden>No additional search terms are recorded.</p><button id="detail-add" class="button primary" type="button" aria-pressed="false">Add to example</button><p id="detail-status" class="help" role="status" aria-live="polite"></p></dialog>
+</body>
+</html>

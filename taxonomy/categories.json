@@ -1,0 +1,2483 @@
+{
+  "catalogueId": "urn:uuid:1747a70b-79ad-4fb1-92e0-ed19b20ce53d",
+  "version": "0.5.0-draft.1",
+  "status": "draft",
+  "license": "Apache-2.0",
+  "groups": [
+    {
+      "id": "g001",
+      "name": "Accommodation and Tourism",
+      "categories": [
+        {
+          "id": "c0008",
+          "name": "Accommodation Management Rights",
+          "kind": "activity",
+          "status": "active",
+          "description": "A business operating accommodation management and associated letting or caretaking rights. Excludes general real estate agencies. The activity is the contracted accommodation-management, letting or caretaking operation. Ownership of an apartment or holiday unit alone is insufficient; general third-party real estate management has its own category.",
+          "aliases": []
+        },
+        {
+          "id": "c0004",
+          "name": "Caravan Park",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a caravan, camping or holiday park, including associated cabins and site services. Includes managed sites for touring caravans, campers and associated holiday cabins. A land holding without an operating park is different; permanent retirement accommodation belongs in the relevant living or care category.",
+          "aliases": []
+        },
+        {
+          "id": "c0006",
+          "name": "Guest Houses and Bed and Breakfast",
+          "kind": "activity",
+          "status": "active",
+          "description": "Visitor accommodation in a guest house or bed-and-breakfast establishment. Excludes permanent residential care. Includes small hosted guest accommodation and comparable owner-operated lodging establishments. Classification follows the accommodation operation, rather than ownership of a residential property or a property-management investment alone.",
+          "aliases": []
+        },
+        {
+          "id": "c0002",
+          "name": "Hostels and Backpacker Accommodation",
+          "kind": "activity",
+          "status": "active",
+          "description": "Budget visitor accommodation primarily in hostels or backpacker lodgings, commonly with shared facilities. Covers operating the accommodation business and its guest services, rather than selling the building alone. A separately operated cafe, tour service or other substantial activity may justify an additional category.",
+          "aliases": []
+        },
+        {
+          "id": "c0007",
+          "name": "Hotels",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a hotel primarily providing short-stay accommodation. A venue primarily operating as a pub or bar uses Pubs, Bars and Nightclubs. Includes accommodation-led hotels with associated guest facilities. Where the business is primarily a pub or nightlife venue, use that activity even if some rooms are available; a property-only sale is outside this scope.",
+          "aliases": []
+        },
+        {
+          "id": "c0009",
+          "name": "Motel",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a motel primarily providing short-stay accommodation for travellers. Includes traveller accommodation typically sold by room for short stays. Associated food services can be additional activities when substantial; an investment in the premises alone does not identify a motel operating business.",
+          "aliases": []
+        },
+        {
+          "id": "c0010",
+          "name": "Resort",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of visitor accommodation with substantial integrated leisure or holiday facilities. Examples include holiday accommodation with integrated recreation, dining and guest amenities. The resort operation is primary; independent tour, retail or hospitality businesses should be classified by their own activities.",
+          "aliases": []
+        },
+        {
+          "id": "c0012",
+          "name": "Theme Park",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of an admission-based theme or amusement park with permanent attractions. Includes operating a destination with permanent themed rides or attractions. Prefer the more specific children's play category for an indoor play centre; event performers and equipment hire are different operations.",
+          "aliases": []
+        },
+        {
+          "id": "c0013",
+          "name": "Tours and Experiences",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of guided visitor tours, excursions or sightseeing experiences. Excludes an agency primarily reselling other operators' travel. Includes guided sightseeing and activity-based excursions sold as an organised visitor experience. Transport can be integral to the tour; add a transport category only for a separate passenger-carriage activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0123",
+          "name": "Travel Agencies",
+          "kind": "activity",
+          "status": "active",
+          "description": "Travel agency, booking and travel arrangement services. Excludes operators primarily conducting their own tours or passenger transport. Includes businesses arranging bookings and travel products supplied by other operators. Conducting the operator's own tour or carrying passengers is a different activity, even when sold through the same booking channel.",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "g002",
+      "name": "Automotive and Marine",
+      "categories": [
+        {
+          "id": "c0155",
+          "name": "Aircraft Maintenance",
+          "kind": "activity",
+          "status": "active",
+          "description": "Aircraft maintenance, repair and associated technical support services. Excludes air transport, recreational flight experiences and aircraft dealers. Includes technical aircraft maintenance, repair and support businesses. Identify whether customers purchase equipment, maintenance or carriage; ownership of aircraft and an aviation customer base alone do not identify the operation.",
+          "aliases": []
+        },
+        {
+          "id": "c0015",
+          "name": "Aircraft Sales and Equipment",
+          "kind": "activity",
+          "status": "active",
+          "description": "Sale and supply of aircraft and aviation equipment. Excludes aircraft maintenance, passenger/freight carriage and recreational flight experiences. Includes aircraft dealerships, aviation equipment sales and related technical product supply. Determine whether the business sells equipment, maintains aircraft or carries passengers; the word aviation alone cannot distinguish these roles.",
+          "aliases": []
+        },
+        {
+          "id": "c0016",
+          "name": "Auto Electrical",
+          "kind": "activity",
+          "status": "active",
+          "description": "Installation, diagnosis and repair of electrical and electronic systems in motor vehicles. Excludes general building electrical work. Examples include vehicle wiring, starting/charging systems and electronic diagnostics. Repair of vehicle systems belongs here; manufacture of components, retail-only parts sales and building electrical contracting remain separate activities.",
+          "aliases": []
+        },
+        {
+          "id": "c0017",
+          "name": "Bicycle and Motorcycle Businesses",
+          "kind": "activity",
+          "status": "active",
+          "description": "Sale, servicing or repair of bicycles and motorcycles. Excludes a business primarily hiring recreational equipment. Includes specialist bicycle and motorcycle dealers and service workshops. Electric variants follow the same activity; vehicle technology alone does not create another category, and unrelated car dealerships or freight operators are excluded.",
+          "aliases": []
+        },
+        {
+          "id": "c0023",
+          "name": "Boat Sales and Equipment",
+          "kind": "activity",
+          "status": "active",
+          "description": "Sale and supply of boats, marine engines and related equipment. Prefer Marine Maintenance for maintenance and repair; excludes water transport and recreational marine experiences. Examples include boat dealerships and marine engine/accessory supply. A repair yard or boat maintenance contractor belongs under Marine Maintenance; charter experiences and passenger or freight carriage have separate scopes.",
+          "aliases": []
+        },
+        {
+          "id": "c0018",
+          "name": "Car Dealerships",
+          "kind": "activity",
+          "status": "active",
+          "description": "Sale of new or used passenger motor vehicles through a dealership. Excludes vehicle hire and truck-only dealers. Includes dealerships primarily earning from passenger-car sales. A substantial repair workshop or finance activity can be identified separately; selling business vehicles incidentally is insufficient to classify another business as a dealership.",
+          "aliases": []
+        },
+        {
+          "id": "c0019",
+          "name": "Car Rental",
+          "kind": "activity",
+          "status": "active",
+          "description": "Hire of passenger motor vehicles to customers. Excludes chauffeured transport and freight operations. Includes fleets hired to customers for self-drive use. A driver-supplied passenger service belongs under Taxi and Chauffeur Services; trading vehicles or renting accommodation is a different activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0020",
+          "name": "Car Wash",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a vehicle washing business, including automated or self-service facilities. Prefer Detailing for specialist finishing and restoration. Includes staffed, automated and self-service vehicle wash operations. Specialist finishing and protection work can use Detailing; mobile delivery changes neither activity nor the distinction between washing and body repair.",
+          "aliases": []
+        },
+        {
+          "id": "c0021",
+          "name": "Detailing",
+          "kind": "activity",
+          "status": "active",
+          "description": "Specialist vehicle cleaning, polishing, surface protection and cosmetic detailing. Excludes panel repairs and routine mechanical repairs. Examples include intensive interior treatment, polishing and protective surface applications. Choose Vehicle Body Repairs for collision work; routine washing alone does not establish a specialist detailing business.",
+          "aliases": []
+        },
+        {
+          "id": "c0022",
+          "name": "Driving Schools",
+          "kind": "activity",
+          "status": "active",
+          "description": "Instruction in driving road vehicles, including learner and commercial driver training. Includes businesses selling road-driver instruction and associated practical lessons. General vocational training can be additional only when separately substantial; vehicle ownership or hire alone does not establish an instruction business.",
+          "aliases": []
+        },
+        {
+          "id": "c0158",
+          "name": "Marine Maintenance",
+          "kind": "activity",
+          "status": "active",
+          "description": "Boat and marine equipment maintenance, repair and technical services. Excludes boat dealers, sea transport and marine leisure experiences. Includes technical servicing, repair and maintenance of boats, engines and marine equipment. Sales, charters, leisure experiences and transport are different activities, even when the business owns vessels or waterfront premises.",
+          "aliases": []
+        },
+        {
+          "id": "c0026",
+          "name": "Service Station",
+          "kind": "activity",
+          "status": "active",
+          "description": "Retail sale of vehicle fuel through a service station, with or without an associated convenience shop. Includes operating a fuel-retail forecourt, with associated goods sales or amenities. A substantial convenience store may be another activity; wholesale fuel supply, extraction and electricity-generation businesses are different operations.",
+          "aliases": [
+            {
+              "alias": "petrol station",
+              "note": "Vehicle fuel retail business."
+            }
+          ]
+        },
+        {
+          "id": "c0027",
+          "name": "Truck Sales and Equipment",
+          "kind": "activity",
+          "status": "active",
+          "description": "Sale of commercial trucks and truck equipment. Excludes truck freight operators and general mechanical workshops. Includes dealers supplying commercial trucks and related equipment. Distinguish selling a truck from carrying a customer's freight or repairing a fleet; those businesses belong in transport or workshop categories.",
+          "aliases": []
+        },
+        {
+          "id": "c0025",
+          "name": "Vehicle Body Repairs",
+          "kind": "activity",
+          "status": "active",
+          "description": "Repair and refinishing of vehicle bodies after damage, including collision and panel work. Includes collision body repair, panel work and vehicle refinishing. Cosmetic detailing without repair uses Detailing; general mechanical servicing and selling replacement parts are different activities even when performed at the same premises.",
+          "aliases": [
+            {
+              "alias": "panel beater",
+              "note": "Vehicle body repair and refinishing."
+            },
+            {
+              "alias": "smash repairer",
+              "note": "Vehicle collision body repair and refinishing."
+            }
+          ]
+        },
+        {
+          "id": "c0028",
+          "name": "Vehicle Dismantling and Parts Recovery",
+          "kind": "activity",
+          "status": "active",
+          "description": "Dismantling vehicles and recovering used vehicle parts for resale or recycling. Includes recovering saleable vehicle components and materials from dismantled vehicles. General waste recovery is separate when broader materials processing is primary; an ordinary used-car dealership is not a dismantling operation.",
+          "aliases": [
+            {
+              "alias": "wrecker",
+              "note": "Vehicle dismantling and used-parts recovery."
+            }
+          ]
+        },
+        {
+          "id": "c0024",
+          "name": "Vehicle Mechanical Repairs",
+          "kind": "activity",
+          "status": "active",
+          "description": "Mechanical servicing and repair of road vehicles, including tyre fitting and wheel servicing. Excludes workshops primarily doing auto electrical or collision body repairs; a distinct parts sales activity can also use Vehicle Parts and Accessories. Includes servicing workshops, tyre fitting and wheel work where technical vehicle maintenance is primary. Vehicle sales, parts retail, auto electrical work and collision repairs can be separate categories when distinct operations genuinely exist.",
+          "aliases": [
+            {
+              "alias": "mechanic",
+              "note": "Road-vehicle mechanical workshop."
+            },
+            {
+              "alias": "tires",
+              "note": "Tyre fitting and wheel-service candidate."
+            },
+            {
+              "alias": "tyre sales and fitting",
+              "note": "Use for tyre fitting and wheel servicing; product sales are a separate activity."
+            },
+            {
+              "alias": "tyres",
+              "note": "Tyre fitting and wheel-service candidate."
+            }
+          ]
+        },
+        {
+          "id": "c0014",
+          "name": "Vehicle Parts and Accessories",
+          "kind": "activity",
+          "status": "active",
+          "description": "Sale or distribution of motor vehicle parts and accessories, including tyres and wheels. Excludes vehicle manufacture and general repair workshops. A distinct fitting/servicing activity can also use Vehicle Mechanical Repairs. Includes specialist tyre, wheel, aftermarket and replacement-parts businesses. The product-sales role differs from fitting or mechanical servicing; selecting both requires actual sales and service activities, rather than incidental consumables used in repairs.",
+          "aliases": [
+            {
+              "alias": "car parts",
+              "note": "Motor vehicle parts and accessories."
+            },
+            {
+              "alias": "tires",
+              "note": "Vehicle tyre/parts sales candidate."
+            },
+            {
+              "alias": "tyre sales and fitting",
+              "note": "Use for tyre/vehicle-parts sales; fitting is a separate service activity."
+            },
+            {
+              "alias": "tyres",
+              "note": "Vehicle tyre/parts sales candidate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g003",
+      "name": "Beauty and Personal Care",
+      "categories": [
+        {
+          "id": "c0030",
+          "name": "Beauty Salon",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of beauty treatments through a salon, excluding businesses primarily offering hair, nails, massage or spa services. Examples include facial, skin-care and general beauty-treatment businesses. A hair, nail, massage or spa operation should use its named category when primary; selling beauty products alone is retail or wholesale supply.",
+          "aliases": [
+            {
+              "alias": "beautician",
+              "note": "Beauty treatment services rather than product supply."
+            }
+          ]
+        },
+        {
+          "id": "c0032",
+          "name": "Hair Salons and Barbers",
+          "kind": "activity",
+          "status": "active",
+          "description": "Hairdressing, barbering and associated hair salon services. Excludes businesses primarily selling hair products. Includes hairdressing salons and barber businesses, whether appointment-based or walk-in. A separate beauty-treatment or product-trading activity can justify another category; the sale of consumables incidental to a service is insufficient by itself.",
+          "aliases": [
+            {
+              "alias": "barber",
+              "note": "Hair salon and barber services."
+            },
+            {
+              "alias": "hairdresser",
+              "note": "Hair salon services."
+            }
+          ]
+        },
+        {
+          "id": "c0033",
+          "name": "Health Spa",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a health or beauty spa providing a combination of relaxation and personal treatments. Excludes hospital and medical care. Includes spas primarily selling a coordinated relaxation or personal-treatment experience. Accommodation-led resorts, medical clinics and standalone massage or beauty salons should use their more informative primary activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0035",
+          "name": "Massage",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of massage services. Excludes physiotherapy practices and businesses primarily operating a broader spa. Includes businesses primarily selling massage sessions and related non-equipment services. Physiotherapy remains a distinct clinical practice; an incidental massage offering within a broader spa does not require duplicate classification.",
+          "aliases": []
+        },
+        {
+          "id": "c0038",
+          "name": "Nail Salons",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of manicure, pedicure and nail salon services. Includes businesses primarily providing nail-care appointments and related salon work. Other independently substantial beauty or retail activities can be combined; selling nail products to consumers or salons is a separate trading role.",
+          "aliases": []
+        },
+        {
+          "id": "c0039",
+          "name": "Natural Therapies",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of complementary or natural therapy services. The category makes no claim about treatment efficacy or professional recognition. Includes practices primarily offering complementary or natural-therapy services, rather than selling products. Record the actual service being operated.",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "g005",
+      "name": "Education and Training",
+      "categories": [
+        {
+          "id": "c0046",
+          "name": "Child Care",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of childcare, early learning or out-of-school-hours care services. Excludes a business primarily selling children's products. Includes operating early-learning, childcare and out-of-school care businesses. Children's play venues, tuition, retail products and clinical support have their own scopes; serving children is not sufficient to select childcare.",
+          "aliases": []
+        },
+        {
+          "id": "c0047",
+          "name": "Education and Tutoring",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of education, tutoring or learning services not better described by Child Care or vocational/professional Training. Delivery online does not create a separate industry. Examples include tutoring, subject tuition and general learning providers. Use Vocational and Professional Training for employment-related skills programmes; online delivery and the age of learners do not themselves establish another industry.",
+          "aliases": []
+        },
+        {
+          "id": "c0049",
+          "name": "Vocational and Professional Training",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of vocational, professional or skills training. Excludes recruitment and general school-subject tutoring; online delivery does not change the activity. Examples include trade, workplace and professional-skills course providers. Delivery can be in person or online; course format does not establish accreditation, and staffing placement remains Recruitment and Staffing.",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "g006",
+      "name": "Food and Hospitality",
+      "categories": [
+        {
+          "id": "c0051",
+          "name": "Bakery",
+          "kind": "activity",
+          "status": "active",
+          "description": "Production and sale of bakery goods through a bakery business. Excludes general food factories not primarily operating as a bakery. Includes baking operations with their own bakery retail outlet. An independently substantial cafe can be combined; a general food factory or shop merely reselling packaged bakery products should use the appropriate production or retail activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0052",
+          "name": "Butcher Shops",
+          "kind": "activity",
+          "status": "active",
+          "description": "Preparation and retail sale of meat through a butcher shop. Excludes livestock farming and broad food manufacturing. Includes meat preparation and retail through butcher shops. Livestock production, commercial food processing and trade wholesale remain separate; a deli offering alone does not require every food-retail category.",
+          "aliases": []
+        },
+        {
+          "id": "c0053",
+          "name": "Cafes and Coffee Shops",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a cafe or coffee shop primarily serving beverages and light meals. Excludes packaged coffee supply without a hospitality outlet. Examples include coffee shops and light-meal cafes. Combine with Bakery or a children's play operation when those are distinct businesses; coffee sold incidentally by an unrelated retailer does not establish a cafe.",
+          "aliases": [
+            {
+              "alias": "coffee shop",
+              "note": "Cafe or coffee shop operation."
+            }
+          ]
+        },
+        {
+          "id": "c0054",
+          "name": "Catering",
+          "kind": "activity",
+          "status": "active",
+          "description": "Preparation and supply of food for events or customers away from a regular dine-in venue. Excludes venues primarily hired for functions. Includes preparing and supplying food for private, corporate and other events, often at customer or hired locations. Venue operation and event planning can be separate activities; carrying prepared food alone is transport rather than catering.",
+          "aliases": []
+        },
+        {
+          "id": "c0055",
+          "name": "Convenience Store",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a small general grocery and convenience shop. Prefer Service Station where vehicle fuel is the main activity. Includes neighbourhood convenience outlets with a mixed everyday grocery range. Choose Service Station where fuel retail is primary and Supermarket for a broad supermarket operation; opening hours alone do not determine classification.",
+          "aliases": []
+        },
+        {
+          "id": "c0056",
+          "name": "Delicatessens",
+          "kind": "activity",
+          "status": "active",
+          "description": "Retail sale of delicatessen foods, prepared meats, cheeses and related products, with or without food preparation. Includes deli shops primarily supplying specialist prepared foods, cured products and related items. Cafe service, meat butchery or wholesale should be additional categories only where each is a distinct substantial activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0058",
+          "name": "Fruit and Vegetable Retail",
+          "kind": "activity",
+          "status": "active",
+          "description": "Retail sale of fresh fruit and vegetables. Excludes growing produce and general supermarkets. Includes greengrocers and similar outlets primarily selling fresh produce to consumers. Growing produce and supplying trade customers belong in farming or wholesale; general grocery stores are better described by their broader retail format.",
+          "aliases": []
+        },
+        {
+          "id": "c0059",
+          "name": "Juice Bar",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a juice or smoothie bar primarily preparing beverages for immediate consumption. Includes outlets primarily preparing juices, smoothies and comparable fresh drinks for immediate consumption. Bottled beverage manufacturing or distribution is different; a broader cafe should use the cafe category when that describes the main operation.",
+          "aliases": []
+        },
+        {
+          "id": "c0050",
+          "name": "Liquor Retail",
+          "kind": "activity",
+          "status": "active",
+          "description": "Retail sale of packaged alcoholic beverages through a liquor business. Excludes venues primarily serving drinks for consumption on site. Includes bottle shops and other outlets selling packaged alcoholic drinks to consumers. On-premises consumption-led venues use the pub/bar or restaurant category; wholesale distribution is a separate trading role.",
+          "aliases": [
+            {
+              "alias": "bottle shop",
+              "note": "Retail sale of packaged alcoholic beverages."
+            },
+            {
+              "alias": "liquor store",
+              "note": "Retail sale of packaged alcoholic beverages."
+            }
+          ]
+        },
+        {
+          "id": "c0061",
+          "name": "Restaurant",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a restaurant primarily preparing and serving meals for consumption on the premises. Includes dining establishments whose main operation is prepared meals served on site. A substantial takeaway operation may also be relevant; cuisine names and a delivery platform alone do not require separate categories.",
+          "aliases": [
+            {
+              "alias": "pizza shop",
+              "note": "Choose for a primarily dine-in pizza restaurant."
+            },
+            {
+              "alias": "pizzeria",
+              "note": "Choose for a primarily dine-in restaurant; takeaway-focused operations use Takeaway Food."
+            }
+          ]
+        },
+        {
+          "id": "c0062",
+          "name": "Specialist Food Retail",
+          "kind": "activity",
+          "status": "active",
+          "description": "Specialist food or beverage retail not better described by a named shop category. Excludes hospitality and wholesale supply. Use for specialist consumer food shops not captured by the named bakery, butcher, deli, produce, liquor or grocery categories. Explain the main product range; a broad category should not replace a known more informative shop type.",
+          "aliases": []
+        },
+        {
+          "id": "c0063",
+          "name": "Supermarket",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a supermarket offering a broad range of groceries and household goods. Includes supermarkets supplying a broad grocery and household range. A small convenience outlet or specialist food shop has a different format; food manufacture and trade wholesale are separate business activities.",
+          "aliases": []
+        },
+        {
+          "id": "c0064",
+          "name": "Takeaway Food",
+          "kind": "activity",
+          "status": "active",
+          "description": "Preparation and sale of takeaway or quick-service food, including mobile food outlets. Excludes a business primarily providing event catering. Examples include primarily takeaway pizza, burger and fish-and-chip outlets, including food vans. Choose Restaurant where dine-in meal service is primary; mobility, cuisine and online ordering do not establish another industry by themselves.",
+          "aliases": [
+            {
+              "alias": "burger shop",
+              "note": "Takeaway or quick-service food operation."
+            },
+            {
+              "alias": "fish and chips",
+              "note": "Takeaway fish-and-chip food preparation and sale."
+            },
+            {
+              "alias": "fish n chips",
+              "note": "Takeaway food operation."
+            },
+            {
+              "alias": "food truck",
+              "note": "Food preparation/sale from a mobile outlet."
+            },
+            {
+              "alias": "mobile food van",
+              "note": "Food preparation/sale from a mobile outlet; mobility alone is not an industry."
+            },
+            {
+              "alias": "pizza shop",
+              "note": "Choose for a primarily takeaway or quick-service pizza operation."
+            },
+            {
+              "alias": "pizzeria",
+              "note": "Choose for a primarily takeaway or quick-service operation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g009",
+      "name": "Wholesale and Trade",
+      "categories": [
+        {
+          "id": "c0256",
+          "name": "Beauty Product Wholesale",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Wholesale and trade supply of beauty, cosmetic and salon products. Consumer shops use Health and Beauty Retail; manufacturers use the relevant manufacturing category. Includes trade businesses buying and supplying beauty or salon products to business customers. Consumer shops, treatment providers and manufacturers have separate roles; identify the main customer and supply activity before classifying the operation.",
+          "aliases": [
+            {
+              "alias": "beauty product supply",
+              "note": "Choose for wholesale/trade supply."
+            },
+            {
+              "alias": "Beauty Products",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            },
+            {
+              "alias": "beauty wholesaler",
+              "note": "Wholesale/trade supply rather than consumer retail."
+            },
+            {
+              "alias": "salon supplies",
+              "note": "Wholesale/trade supply to salons."
+            }
+          ]
+        },
+        {
+          "id": "c0072",
+          "name": "Customs Brokerage",
+          "kind": "activity",
+          "status": "active",
+          "description": "Customs brokerage, clearance and related trade documentation services. Excludes businesses primarily carrying freight or trading goods. The core service is customs clearance, brokerage and trade documentation for clients. Freight forwarding or carriage can be additional activities when genuinely operated; importing the business's own stock alone does not make it a customs broker.",
+          "aliases": []
+        },
+        {
+          "id": "c0065",
+          "name": "Food and Beverage Wholesale",
+          "kind": "activity",
+          "status": "active",
+          "description": "Buying and reselling food or beverage stock to trade customers. Excludes freight-only delivery and general wholesale of non-food goods. Includes buying and reselling food or drink stock to business customers, often with associated distribution. Freight-only carriage, food manufacture and consumer retail are different roles; identify stock trading rather than simply the movement of goods.",
+          "aliases": []
+        },
+        {
+          "id": "c0076",
+          "name": "General Wholesale",
+          "kind": "activity",
+          "status": "active",
+          "description": "Buying and reselling goods to trade customers where a more specific product wholesale category does not apply. Excludes retail-only and freight-only businesses. Use for trade stock-reselling businesses without a more informative product wholesale category. Identify whether customers are businesses and whether the operator trades the goods; retail-only shops and carriage-only contractors are not wholesale activities.",
+          "aliases": []
+        },
+        {
+          "id": "c0210",
+          "name": "Import and Export Trading",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Trade businesses primarily sourcing or supplying goods across borders. Prefer a product wholesale category where more informative; excludes freight and customs services. Includes stock-trading businesses whose main role is import, export or both. Identify the direction of trade and product range; brokerage, carrying freight and selling the operator's own locally produced output are different roles.",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "g010",
+      "name": "Manufacturing and Engineering",
+      "categories": [
+        {
+          "id": "c0080",
+          "name": "Electrical Equipment Manufacturing",
+          "kind": "activity",
+          "status": "active",
+          "description": "Manufacture of electrical equipment or components. Use Electrical in Construction and Trades for installation and maintenance contracting. Includes businesses making electrical equipment or components, rather than installing them at customer sites. A dealer, technical service contractor and manufacturer can serve the same industry while operating different business activities.",
+          "aliases": []
+        },
+        {
+          "id": "c0060",
+          "name": "Food and Beverage Manufacturing",
+          "kind": "activity",
+          "status": "active",
+          "description": "Manufacture or processing of food and beverages. Excludes hospitality outlets preparing meals primarily for their own customers. Includes commercial production and processing of food or drink for supply beyond the operator's own hospitality outlet. Trade wholesale, farming and consumer food retail are distinct stages and can be combined only for actual additional activities.",
+          "aliases": []
+        },
+        {
+          "id": "c0082",
+          "name": "Furniture and Timber Manufacturing",
+          "kind": "activity",
+          "status": "active",
+          "description": "Manufacture or processing of furniture, timber products and associated joinery. Excludes furniture-only retail. Includes production of furniture, timber goods and associated joinery. Furniture shops and building installation services remain separate; a combined maker/retailer can identify both actual activities without treating every supplier as a manufacturer.",
+          "aliases": []
+        },
+        {
+          "id": "c0085",
+          "name": "General Manufacturing and Production Engineering",
+          "kind": "activity",
+          "status": "active",
+          "description": "Manufacturing and production engineering businesses not better described by a specific product category. Excludes consultancy without production activity. Use for genuine manufacturing or production engineering without a suitable named product category. Identify the output being made; design-only consultancy, recovery of waste without production and ordinary repair work are different operations.",
+          "aliases": []
+        },
+        {
+          "id": "c0083",
+          "name": "Glass and Ceramic Manufacturing",
+          "kind": "activity",
+          "status": "active",
+          "description": "Manufacture or processing of glass and ceramic products. Excludes general retail of finished household goods. Examples include businesses producing or processing glassware, ceramic goods and relevant components. A shop selling finished household goods or a contractor installing glazing should be classified by the actual trading or service activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0084",
+          "name": "Machinery and Metal Manufacturing",
+          "kind": "activity",
+          "status": "active",
+          "description": "Manufacture or fabrication of machinery and metal products. Excludes equipment dealers and machinery repair-only businesses. Includes machinery production and metal-product fabrication. Selling equipment, maintaining machines or supplying welding services alone are different activities; choose the more informative production category where the product is known.",
+          "aliases": []
+        },
+        {
+          "id": "c0086",
+          "name": "Mining and Earthmoving Services",
+          "kind": "activity",
+          "status": "active",
+          "description": "Mining services, extraction support and earthmoving operations. Use Civil for businesses primarily delivering civil infrastructure works. Includes specialist earthmoving, extraction-support and mining-contract operations. Prefer Civil for integrated civil infrastructure delivery; technical advice or sale of earthmoving equipment alone is not the same activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0216",
+          "name": "Paper and Packaging Manufacturing",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Manufacture of paper, board, containers and packaging products. Excludes customer print/signage services and waste recovery as the main activity. Includes factories producing paper, board, packaging and containers for onward supply. A customer print shop or a waste-paper recovery business operates at another stage and should not be assigned this manufacturing category solely from its material.",
+          "aliases": []
+        },
+        {
+          "id": "c0089",
+          "name": "Plastics Manufacturing",
+          "kind": "activity",
+          "status": "active",
+          "description": "Manufacture or processing of plastic products and components. Excludes plastic waste recovery as the main activity. Includes production and processing of finished plastic goods or components. A distributor of finished products or a recycler recovering materials without manufacturing new goods should use its actual trading or recovery activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0079",
+          "name": "Textile, Clothing and Footwear Manufacturing",
+          "kind": "activity",
+          "status": "active",
+          "description": "Manufacture of clothing, footwear or associated textile products. Excludes consumer fashion retail. Includes factories and production businesses making garments, footwear and textile products. Retail, trade wholesale and alteration or repair services are different roles; a fabric or fashion product label alone does not establish manufacturing.",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "g011",
+      "name": "Leisure and Fitness",
+      "categories": [
+        {
+          "id": "c0092",
+          "name": "Adult Entertainment",
+          "kind": "activity",
+          "status": "active",
+          "description": "Adult entertainment venues or services. Excludes ordinary leisure venues and general retail. Includes businesses primarily providing adult entertainment services or operating associated venues. Ordinary nightlife, general entertainment and retail products have different scopes; classify the operated activity rather than a broad marketing description.",
+          "aliases": []
+        },
+        {
+          "id": "c0094",
+          "name": "Amusement and Arcade Businesses",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of amusement, arcade or entertainment attractions. Prefer Children's Play and Activity Centres for a play-centre business and Theme Park for permanent themed attractions. Includes arcades and amusement attractions where another named leisure format is not more informative. Children's play centres and permanent theme parks have their own categories; general entertainment does not establish an attraction operator.",
+          "aliases": []
+        },
+        {
+          "id": "c0096",
+          "name": "Arts and Craft Experiences",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of arts and craft experiences, workshops or leisure activities. Excludes a business primarily retailing finished goods or craft supplies. Includes participatory craft workshops, creative leisure sessions and similar customer experiences. Sales of art materials or hobby products use retail; production of content for customers or owned publications belongs in media activities.",
+          "aliases": []
+        },
+        {
+          "id": "c0254",
+          "name": "Children's Play and Activity Centres",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Operation of children's indoor play, activity and party centres. Excludes childcare, clinical care, tutoring and sports coaching as the main activity. Can combine with Cafes and Coffee Shops for a distinct cafe operation. Includes play-centre and children's activity-venue operators, often with party services. An independently substantial cafe can be combined; childcare, tutoring and clinical support are different activities despite sharing an audience.",
+          "aliases": [
+            {
+              "alias": "children's playcentre",
+              "note": "Children's play/activity business rather than childcare."
+            },
+            {
+              "alias": "indoor play center",
+              "note": "Children's play/activity business rather than childcare."
+            },
+            {
+              "alias": "indoor play centre",
+              "note": "Children's play/activity business rather than childcare."
+            },
+            {
+              "alias": "kids play centre",
+              "note": "Children's play/activity business rather than childcare."
+            }
+          ]
+        },
+        {
+          "id": "c0005",
+          "name": "Function Centre",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a venue primarily hired for functions, weddings or events. Excludes event catering without a venue. Includes wedding, conference and private-function venues where hiring and operating the space is primary. Add Catering or Event Planning and Coordination only for a distinct service supplied by the business itself.",
+          "aliases": []
+        },
+        {
+          "id": "c0099",
+          "name": "Gambling Businesses",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of gambling services or venues. Excludes newsagencies primarily retailing lottery products; the label does not imply a licence. Includes businesses operating gambling services or dedicated gambling venues. Lottery-product retail can instead be a newsagency/lottery outlet activity; category selection does not confirm permission to conduct a particular activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0104",
+          "name": "Gyms and Sports Facilities",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a gym, fitness centre or sports facility. Excludes businesses primarily selling sporting products. Includes gym operators, fitness centres and businesses running sports facilities. Personal or sports services without a facility may fit Recreation and Sports Services; sale of exercise equipment alone belongs in retail.",
+          "aliases": []
+        },
+        {
+          "id": "c0243",
+          "name": "Live Entertainment Venues",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Operation of theatres, live music and performance venues. Excludes hospitality-led bars and businesses primarily supplying performers to other venues. Includes theatres, live-music spaces and other performance-venue operators. Supplying performers, running hospitality-led bars, selling recorded media and producing content for clients are different activities; a venue property alone is insufficient.",
+          "aliases": []
+        },
+        {
+          "id": "c0097",
+          "name": "Pubs, Bars and Nightclubs",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of pubs, bars, nightclubs and similar venues primarily serving drinks or nightlife entertainment. Accommodation-led hotels use c0007. Includes pub, bar and nightclub operations primarily earning from on-site drinks and nightlife services. Accommodation-led hotels and packaged-liquor shops remain separate, even where the same business name includes the word hotel.",
+          "aliases": []
+        },
+        {
+          "id": "c0103",
+          "name": "Recreation and Sports Services",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of recreation, sport or fitness activities not better described by a specific leisure category. Excludes clinical treatment and equipment-only retail. Use for recreation, coaching and sports services not captured by a named venue or activity category. Equipment shops, clinical practices and hire-only businesses have different scopes, even when their products or clients are sporting.",
+          "aliases": []
+        },
+        {
+          "id": "c0095",
+          "name": "Water Sports and Marine Experiences",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of recreational water activities and marine leisure experiences. Excludes boat sales, technical marine services and sea transport. Examples include organised water-sport and marine recreation experiences. Boat dealers, technical marine contractors and passenger transport are different roles; equipment ownership or a waterfront location alone does not identify an experience business.",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "g012",
+      "name": "Professional and Business Services",
+      "categories": [
+        {
+          "id": "c0106",
+          "name": "Accounting Practices",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of accounting, tax preparation and related accounting practice services. Prefer Bookkeeping where routine transaction records are the main service. Includes accounting practices whose core services extend beyond maintaining transaction records, including business accounts and related professional work. Bookkeeping-only operations, lending and investment businesses should use their actual service category.",
+          "aliases": []
+        },
+        {
+          "id": "c0108",
+          "name": "Bookkeeping and Payroll Services",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of bookkeeping, payroll processing and routine financial recordkeeping services. Excludes broader accounting practices as the main activity. Includes outsourced bookkeeping, payroll administration and routine financial recordkeeping. Broader accounting practices and general back-office outsourcing are different scopes; software used to perform the work does not make it a software-product business.",
+          "aliases": []
+        },
+        {
+          "id": "c0109",
+          "name": "Business and Transaction Brokerage",
+          "kind": "activity",
+          "status": "active",
+          "description": "Intermediary services arranging transactions between buyers and sellers, such as business brokerage. Prefer Real Estate and Property Management for real estate agencies. Includes intermediaries primarily arranging business or other non-specialist transactions. Use Finance, Insurance or Real Estate for the named specialist activity; holding or selling the operator's own assets is not brokerage alone.",
+          "aliases": []
+        },
+        {
+          "id": "c0240",
+          "name": "Business Process Outsourcing",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision of outsourced administration, customer support and back-office operations. Prefer a named professional practice where that is the main service. Includes outsourced administrative processes, customer support and operational back-office services. Professional advice, recruitment and named accounting/bookkeeping services remain separate; a business client base alone does not establish professional advisory work.",
+          "aliases": []
+        },
+        {
+          "id": "c0110",
+          "name": "Civil Engineering Consultancy",
+          "kind": "activity",
+          "status": "active",
+          "description": "Civil engineering design, assessment and consultancy services. Excludes businesses primarily delivering construction works. Includes civil engineering advice, design and assessment supplied to clients. Delivering the resulting construction works is a different activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0113",
+          "name": "Finance and Lending Services",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision or arrangement of finance and related financial services. Excludes accounting-only, insurance-only and general transaction brokerage businesses. Includes lending and finance-arrangement businesses and related specialist services. General bookkeeping, insurance, transaction brokerage and owned software tools have separate scopes; identify the financial service actually supplied to customers.",
+          "aliases": []
+        },
+        {
+          "id": "c0177",
+          "name": "General Professional and Advisory Services",
+          "kind": "activity",
+          "status": "active",
+          "description": "Professional or business advisory services not better described by a named profession. Excludes known specialist activities and general manual services. Use for professional or advisory services without a more informative named discipline. Routine outsourced operational work uses Business Process Outsourcing; a professional client base alone does not turn manual services into advisory work.",
+          "aliases": []
+        },
+        {
+          "id": "c0114",
+          "name": "Insurance Services",
+          "kind": "activity",
+          "status": "active",
+          "description": "Insurance brokerage, agency and related insurance service businesses. The category does not imply regulatory authorisation. Includes insurance agencies, brokers and related insurance-service operations. The classification concerns the business activity and does not imply an insurer relationship, authorisation or a particular distribution arrangement.",
+          "aliases": []
+        },
+        {
+          "id": "c0116",
+          "name": "Legal Practices",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of legal practice and related legal advisory services. Excludes general business consultancy. Includes legal practice businesses and specialist legal advisory services for clients. General business consulting and document printing are different activities; ownership of a legal-sector technology product alone is not a legal practice.",
+          "aliases": []
+        },
+        {
+          "id": "c0248",
+          "name": "Marketing and Advertising Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Marketing, advertising, campaign and promotional services across digital and other channels. Excludes operating owned publications or supplying media production alone. Includes agencies providing marketing strategy, advertising, search, social and other campaign services. Channel terms remain aliases; operating owned content or supplying stand-alone media production is a separate activity rather than an automatic agency classification.",
+          "aliases": [
+            {
+              "alias": "Advertising and Marketing",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            },
+            {
+              "alias": "digital agency",
+              "note": "Marketing-led agency candidate."
+            },
+            {
+              "alias": "Digital Marketing",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            },
+            {
+              "alias": "marketing agency",
+              "note": "Marketing and advertising services across channels."
+            },
+            {
+              "alias": "PPC agency",
+              "note": "Paid online advertising service."
+            },
+            {
+              "alias": "SEO agency",
+              "note": "Search marketing service rather than owned media."
+            },
+            {
+              "alias": "social media agency",
+              "note": "Marketing service rather than owned content publishing."
+            }
+          ]
+        },
+        {
+          "id": "c0259",
+          "name": "Media Production Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Photography, video, audio and editorial content production for customers. Owned publications and content businesses use Publishing and Content Businesses; advertising-led campaign services use Marketing and Advertising Services. Includes commissioned photography, video, audio and editorial production for clients. Owned publications use Publishing and Content Businesses; the category follows the service supplied rather than incidental rights retained in the produced work.",
+          "aliases": [
+            {
+              "alias": "photographer",
+              "note": "Photography services for customers."
+            },
+            {
+              "alias": "Photography and Video Services",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            },
+            {
+              "alias": "podcast production",
+              "note": "Production for customers; an owned podcast publication uses Publishing and Content Businesses."
+            },
+            {
+              "alias": "Publishing and Media",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            },
+            {
+              "alias": "videographer",
+              "note": "Video production services for customers."
+            }
+          ]
+        },
+        {
+          "id": "c0122",
+          "name": "Physical Security Services",
+          "kind": "activity",
+          "status": "active",
+          "description": "Physical security, guarding, monitoring and related security services. Excludes cybersecurity and businesses primarily installing alarm equipment. Includes guarding, monitoring and physical-security service operations. Installation of alarm equipment and cybersecurity have their own categories; selling a security product without providing the service is a separate role.",
+          "aliases": []
+        },
+        {
+          "id": "c0214",
+          "name": "Print and Signage Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Customer printing, copying, document finishing and signage production or installation. Excludes paper manufacture and photographic services as the main activity. Includes printing, copying, finishing and signage supplied to customers. Separate customer production from installation-only work and paper manufacture; product materials alone do not identify the commercial role.",
+          "aliases": []
+        },
+        {
+          "id": "c0249",
+          "name": "Publishing and Content Businesses",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Operation of owned publications, media channels, content libraries or audience businesses, including digital and subscription content. Customer media production uses Media Production Services; excludes software products and advertising agencies. Includes owned publications, channels, newsletters and content libraries monetised through audience, access or publication revenue. Production supplied to clients uses Media Production Services; retaining creative rights alone does not establish an owned publishing operation.",
+          "aliases": [
+            {
+              "alias": "content website",
+              "note": "Owned content/audience business."
+            },
+            {
+              "alias": "digital publisher",
+              "note": "Owned publications/content rather than production for customers."
+            },
+            {
+              "alias": "Digital Publishing and Content",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            },
+            {
+              "alias": "newsletter business",
+              "note": "Owned publication/content business."
+            },
+            {
+              "alias": "Publishing and Media",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            },
+            {
+              "alias": "subscription content",
+              "note": "Owned subscription content rather than software-as-a-service."
+            }
+          ]
+        },
+        {
+          "id": "c0120",
+          "name": "Recruitment and Staffing",
+          "kind": "activity",
+          "status": "active",
+          "description": "Recruitment, employment placement, labour hire and related staffing services. Excludes training-only and general education businesses. Includes recruitment agencies, placement businesses and staffing or labour-hire operations. Training candidates is a separate activity when primary; an employer's own internal hiring does not establish a recruitment business.",
+          "aliases": []
+        },
+        {
+          "id": "c0121",
+          "name": "Scientific and Laboratory Services",
+          "kind": "activity",
+          "status": "active",
+          "description": "Scientific testing, laboratory, research or technical consultancy services. Excludes medical patient care and general software services. Includes laboratory testing, scientific research services and technical scientific consulting for clients. Patient diagnostics and environmental-specialist advice have named categories; equipment sales alone does not establish a scientific service.",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "g013",
+      "name": "Retail and Ecommerce",
+      "categories": [
+        {
+          "id": "c0252",
+          "name": "Arts, Crafts and Hobby Retail",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Retail sale of art, craft materials, hobby supplies and related specialist goods. Excludes primarily providing workshops or experiences and ordinary electronics or sporting-goods retail. Includes shops selling art materials, crafts and hobby products. Paid creative workshops or experiences can be another activity when independently substantial; the customer experience should not be inferred merely from the goods sold.",
+          "aliases": [
+            {
+              "alias": "art supplies",
+              "note": "Retail of art and craft products, rather than experiences."
+            },
+            {
+              "alias": "craft shop",
+              "note": "Retail of craft and hobby products."
+            },
+            {
+              "alias": "hobby shop",
+              "note": "Retail of hobby products."
+            }
+          ]
+        },
+        {
+          "id": "c0218",
+          "name": "Ecommerce Retail",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Retail of the operator's own goods primarily through an online shop. May combine with a product retail category. Excludes marketplaces connecting independent sellers and software products. Includes online shops primarily selling their own stock to consumers, with or without operating premises. Product categories can add useful detail; distinguish this trading role from marketplaces, software products and owned publications.",
+          "aliases": [
+            {
+              "alias": "e-commerce",
+              "note": "Online retail of own goods; the category does not identify which products are sold."
+            },
+            {
+              "alias": "ecommerce",
+              "note": "Online retail of own goods."
+            },
+            {
+              "alias": "online shop",
+              "note": "Retail of the operator's own goods online, rather than a marketplace."
+            }
+          ]
+        },
+        {
+          "id": "c0126",
+          "name": "Electronics and Entertainment Retail",
+          "kind": "activity",
+          "status": "active",
+          "description": "Retail sale of consumer electronics, entertainment products and technology equipment. Excludes IT consulting, software services and entertainment venues. Includes shops selling electronics and entertainment products, including recorded media and associated equipment. Selling products is distinct from publishing content, producing media for clients and operating entertainment venues.",
+          "aliases": []
+        },
+        {
+          "id": "c0125",
+          "name": "Fashion and Accessories Retail",
+          "kind": "activity",
+          "status": "active",
+          "description": "Retail sale of clothing, footwear, fashion accessories, bags and luggage. Excludes manufacture. Combine with a repair category only for a distinct repair service. Includes consumer clothing, footwear, accessories, bags and luggage shops. A luggage-repair workshop is a service activity; wholesale-only supply and making garments are not retail simply because the products are fashionable.",
+          "aliases": [
+            {
+              "alias": "luggage sales and repairs",
+              "note": "Use for the retail sale of bags/luggage; add a repair category only where a distinct repair service exists."
+            },
+            {
+              "alias": "luggage shop",
+              "note": "Retail sale of bags, luggage and travel accessories."
+            }
+          ]
+        },
+        {
+          "id": "c0257",
+          "name": "Florists",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Retail preparation and sale of cut flowers and floral arrangements, with related plants or gifts. Plant propagation uses Plant Nurseries; mixed garden-product retail uses Garden Centres. Includes flower shops primarily preparing and retailing arrangements, with related plants or gifts. Plant production and broad garden-product retail remain distinct; a shared range of plants does not make all three business formats equivalent.",
+          "aliases": [
+            {
+              "alias": "florist and nursery",
+              "note": "Use for cut flowers and arrangements."
+            },
+            {
+              "alias": "Florists and Plant Shops",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            }
+          ]
+        },
+        {
+          "id": "c0250",
+          "name": "Furniture and Homewares Retail",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Consumer retail of furniture, furnishings and household goods. Excludes hardware/building supplies and manufacture as the main activity. Can combine with Ecommerce Retail when operating an online shop. Includes consumer furniture, furnishings and household-goods stores. Hardware/building-material retail, making products, styling services and equipment hire are different roles; select additional categories only for genuinely separate operations.",
+          "aliases": [
+            {
+              "alias": "furniture shop",
+              "note": "Furniture and household-goods retail."
+            },
+            {
+              "alias": "furniture store",
+              "note": "Furniture and household-goods retail."
+            },
+            {
+              "alias": "homewares and hardware",
+              "note": "Use for household goods/furnishings."
+            },
+            {
+              "alias": "Homewares and Hardware Retail",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            }
+          ]
+        },
+        {
+          "id": "c0100",
+          "name": "Garden Centres",
+          "kind": "activity",
+          "status": "active",
+          "description": "Retail sale of a mixed range of plants, garden goods and supplies through a garden centre. Plant propagation and production use Plant Nurseries; cut flowers and arrangements use Florists. Includes retailers offering plants alongside a mixed range of garden goods. Establish whether the business primarily resells products, grows plants or supplies a service; production-led nurseries and cut-flower florists remain separate.",
+          "aliases": [
+            {
+              "alias": "florist and nursery",
+              "note": "Use for mixed garden retail; the phrase combines different activities."
+            },
+            {
+              "alias": "Florists and Plant Shops",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            }
+          ]
+        },
+        {
+          "id": "c0135",
+          "name": "General Retail",
+          "kind": "activity",
+          "status": "active",
+          "description": "General retail of goods where no more specific product category applies. Excludes wholesale, manufacturing and service-only businesses. Use for mixed or other consumer retail without a suitable named product category. Identify the main product range before choosing this residual; it should not be used to bypass a known furniture, food or other specialist retail category.",
+          "aliases": []
+        },
+        {
+          "id": "c0251",
+          "name": "Hardware and Building Supplies Retail",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Retail sale of hardware, tools and building materials. Excludes manufacturing, construction contracting and wholesale-only supply. Includes retail hardware, tool and building-material suppliers. Wholesale-only trading, making components and installation contracting are different activities; the product family and trading role should both be clear.",
+          "aliases": [
+            {
+              "alias": "hardware store",
+              "note": "Hardware and building-supply retail."
+            },
+            {
+              "alias": "homewares and hardware",
+              "note": "Use for hardware/building supplies; choose both only for distinct activities."
+            },
+            {
+              "alias": "Homewares and Hardware Retail",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            }
+          ]
+        },
+        {
+          "id": "c0129",
+          "name": "Health and Beauty Retail",
+          "kind": "activity",
+          "status": "active",
+          "description": "Consumer retail of health, beauty and personal-care products. Excludes pharmacies, treatment services and trade-focused beauty product supply. Includes consumer shops selling beauty, personal-care and health-related goods outside pharmacy scope. Trade supply to salons belongs in Beauty Product Wholesale; treatments, patient services and manufacture remain separate activities.",
+          "aliases": [
+            {
+              "alias": "beauty product supply",
+              "note": "Choose for consumer retail rather than wholesale."
+            },
+            {
+              "alias": "Beauty Products",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            }
+          ]
+        },
+        {
+          "id": "c0131",
+          "name": "Newsagencies and Lottery Retail",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a newsagency or lottery product retail outlet. The category does not imply a lottery appointment or other authorisation. Includes newsagency and lottery-product retail operations, including outlets primarily earning from lottery retail. Search vocabulary may include familiar lottery brands; neither the category nor an alias establishes a provider appointment.",
+          "aliases": [
+            {
+              "alias": "lottery outlet",
+              "note": "Lottery-product retail, with or without a newsagency."
+            },
+            {
+              "alias": "lotto",
+              "note": "Lottery-product retail, with or without a newsagency."
+            },
+            {
+              "alias": "Tatts",
+              "note": "Lottery-product retail, with or without a newsagency."
+            },
+            {
+              "alias": "Tattslotto",
+              "note": "Lottery-product retail, with or without a newsagency."
+            },
+            {
+              "alias": "The Lott",
+              "note": "Lottery-product retail, with or without a newsagency."
+            }
+          ]
+        },
+        {
+          "id": "c0132",
+          "name": "Office Supplies",
+          "kind": "activity",
+          "status": "active",
+          "description": "Retail sale of office stationery, consumables and office supplies. Excludes general copying and printing services. Includes retail businesses primarily supplying stationery, office consumables and associated everyday supplies. Trade-only distribution and customer printing services are different roles; use a separate category only for a genuinely distinct additional activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0124",
+          "name": "Pet and Animal Retail",
+          "kind": "activity",
+          "status": "active",
+          "description": "Retail sale of pets, animal products and pet supplies. Excludes boarding, grooming and other animal care services. Includes shops primarily selling pets, animal products and associated supplies. Clinical veterinary care, grooming and overnight boarding have separate categories; stock sold incidentally to a service does not necessarily justify another activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0133",
+          "name": "Pharmacies",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a pharmacy retail and dispensing business. The category does not imply any registration, ownership eligibility or dispensing authority. Includes businesses operating pharmacy retail and dispensing services. Medical practices, general health-product shops and wholesale supply remain separate; classification does not determine any professional or ownership requirements.",
+          "aliases": []
+        },
+        {
+          "id": "c0071",
+          "name": "Plant Nurseries",
+          "kind": "activity",
+          "status": "active",
+          "description": "Propagation and growing of plants for sale, including wholesale and sales through an associated nursery. Mixed retail of plants and garden goods without plant production uses Garden Centres; flower arranging and floral retail use Florists. Includes propagators and growers selling their plants wholesale or through an associated nursery. A mixed garden retailer without plant production is a Garden Centre; a florist primarily supplies cut flowers and arrangements.",
+          "aliases": [
+            {
+              "alias": "florist and nursery",
+              "note": "Use for plant propagation/growing."
+            },
+            {
+              "alias": "Florists and Plant Shops",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            }
+          ]
+        },
+        {
+          "id": "c0134",
+          "name": "Postal Outlets",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a postal service outlet or postal agency business. The category does not imply a postal agency appointment. Includes businesses operating postal counters or agency outlets as their core activity. A substantial separate retail range can be another activity; holding postal-related property or providing general courier transport alone is different.",
+          "aliases": []
+        },
+        {
+          "id": "c0255",
+          "name": "Sports and Outdoor Retail",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Retail sale of sporting goods, fitness equipment, camping and outdoor recreation products. Excludes gyms, coaching and operating leisure experiences. Includes sporting, fitness, camping and outdoor-product shops. Coaching, gym operations and recreational experiences are services rather than retail; classify an online shop with Ecommerce Retail only where the online sales activity is real.",
+          "aliases": [
+            {
+              "alias": "camping shop",
+              "note": "Outdoor and camping product retail."
+            },
+            {
+              "alias": "outdoor store",
+              "note": "Outdoor recreation product retail."
+            },
+            {
+              "alias": "sporting goods",
+              "note": "Product retail rather than a gym or sports activity."
+            }
+          ]
+        },
+        {
+          "id": "c0136",
+          "name": "Vending Businesses",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of vending machines selling goods to consumers. Excludes manufacture or servicing of vending equipment as the main activity. Includes operators earning from goods sold through vending machines. Manufacturing machines, maintaining equipment or licensing a brand alone are different operations; automated delivery does not identify the specific goods being sold.",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "g014",
+      "name": "Agriculture and Rural",
+      "categories": [
+        {
+          "id": "c0151",
+          "name": "Agricultural Equipment Supply",
+          "kind": "activity",
+          "status": "active",
+          "description": "Supply and sale of agricultural machinery and equipment. Excludes machinery manufacture and repair-only service businesses. Includes dealers and suppliers of tractors, farm machinery and agricultural equipment. Manufacturing equipment or operating a maintenance workshop is a different activity; incidental servicing does not necessarily require an additional classification.",
+          "aliases": []
+        },
+        {
+          "id": "c0138",
+          "name": "Agricultural Services",
+          "kind": "activity",
+          "status": "active",
+          "description": "Contract agricultural work and rural support, including harvesting, mustering, shearing, wool services and breeding support. Excludes farming production, equipment supply, irrigation and forestry as the main activity. Includes crop, livestock and farm-support contracting such as harvesting, mustering, shearing and breeding support. Rural wildlife work belongs here when supplied as farm support, rather than as a recreational hunting or visitor experience.",
+          "aliases": []
+        },
+        {
+          "id": "c0211",
+          "name": "Agricultural Supplies",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Supply of agricultural consumables such as fertilisers, seed and farm inputs. Excludes agricultural equipment dealers and farm contracting. Includes suppliers of farm inputs such as seed, fertiliser and agricultural consumables. Determine whether the operation sells goods, manufactures them or applies them as a contract service; a Fertiliser label alone does not identify that role.",
+          "aliases": []
+        },
+        {
+          "id": "c0139",
+          "name": "Aquaculture",
+          "kind": "activity",
+          "status": "active",
+          "description": "Farming of aquatic organisms, including fish, shellfish and aquatic plants. Excludes wild-catch fishing and marine leisure activities. Includes cultivation of fish, shellfish and other aquatic organisms as primary production. Wild-catch fishing, seafood retail and visitor experiences are different activities; identify whether the business grows, catches, trades or hosts customers.",
+          "aliases": []
+        },
+        {
+          "id": "c0212",
+          "name": "Commercial Fishing",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Wild-catch fishing and associated commercial harvesting. Excludes aquaculture, seafood retail and recreational fishing tours. Includes commercial harvesting of wild fish and other aquatic resources. Distinguish catching from aquaculture production, processing and consumer retail; a related product or supply chain does not make those the same activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0142",
+          "name": "Crop and Mixed Farming",
+          "kind": "activity",
+          "status": "active",
+          "description": "Primary agricultural production through crop or mixed farming where no more specific farming category applies. Excludes rural contracting alone. Includes crop producers and mixed farms without a more specific production category. Contract harvesters and input suppliers provide services or goods to farms rather than necessarily operating the underlying farm production business.",
+          "aliases": []
+        },
+        {
+          "id": "c0141",
+          "name": "Dairy Farming",
+          "kind": "activity",
+          "status": "active",
+          "description": "Dairy farming and primary milk production. Excludes processing or retail sale of dairy products as the main activity. Includes farm businesses whose main output is milk from dairy animals. Processing milk into packaged products, distributing dairy stock and selling to consumers are different stages rather than automatic dairy-farming classifications.",
+          "aliases": []
+        },
+        {
+          "id": "c0213",
+          "name": "Forestry Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Commercial forestry, timber harvesting and forestry contracting. Excludes timber product manufacturing and general garden maintenance. Includes forestry management, commercial timber harvesting and associated contracting. Growing other farm crops, making timber products and selling finished furniture are different activities even when the supply chain is related.",
+          "aliases": []
+        },
+        {
+          "id": "c0150",
+          "name": "Livestock Businesses",
+          "kind": "activity",
+          "status": "active",
+          "description": "Raising, breeding or dealing in livestock. Prefer Dairy Farming when primary milk production is the main activity. Includes livestock breeding, raising and trading operations. Identify whether the business produces animals, deals in stock or supplies a supporting service; specialist dairy production and contract rural services have their own categories.",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "g015",
+      "name": "Consumer Services",
+      "categories": [
+        {
+          "id": "c0237",
+          "name": "Electronics Repair and Refurbishment",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Repair, refurbishment and resale preparation of electronic devices. Excludes ordinary new-device retail and materials recovery without device reuse. Includes repair and refurbishment of electronic devices for customers or onward resale. New-device retail, machinery service and recovery of materials without preserving reusable devices are different activities.",
+          "aliases": []
+        },
+        {
+          "id": "c0168",
+          "name": "Equipment Hire",
+          "kind": "activity",
+          "status": "active",
+          "description": "Hire of equipment and goods without primarily providing an operator. Prefer Car Rental for passenger vehicles; excludes accommodation and property leasing. Includes businesses hiring equipment or goods without primarily supplying an operator. Car rental, self-storage and accommodation are different formats; equipment used by a contractor to deliver a service is not itself a hire business.",
+          "aliases": []
+        },
+        {
+          "id": "c0166",
+          "name": "Event Entertainment Services",
+          "kind": "activity",
+          "status": "active",
+          "description": "Entertainment services supplied to events or clients, such as performers and event entertainment. Excludes operating a fixed leisure venue as the main activity. Examples include performers and entertainment suppliers engaged for events. Planning the event, operating a venue, catering and hiring equipment without performers are different activities, even when sold to the same wedding or corporate customer.",
+          "aliases": []
+        },
+        {
+          "id": "c0253",
+          "name": "Event Planning and Coordination",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Planning, styling and coordination of weddings, private functions and business events. Excludes operating a venue, supplying performers, catering or equipment hire alone; combine categories for distinct additional activities. Includes wedding and event planning, coordination and styling services supplied to clients. Venue operation, performer supply, catering and equipment hire are separate activities.",
+          "aliases": [
+            {
+              "alias": "event coordinator",
+              "note": "Event planning and coordination services."
+            },
+            {
+              "alias": "wedding planner",
+              "note": "Planning/coordination rather than venue, catering or performer supply alone."
+            },
+            {
+              "alias": "wedding styling",
+              "note": "Event styling/planning rather than equipment hire alone."
+            }
+          ]
+        },
+        {
+          "id": "c0178",
+          "name": "General Repair Services",
+          "kind": "activity",
+          "status": "active",
+          "description": "Repair of goods and equipment not better described by a specialist vehicle, machinery or other repair category. Use for repairs to goods without a suitable named vehicle, machinery or electronics category. Examples may include specialist bag or household-item repair; retail product sales and manufacturing are separate roles.",
+          "aliases": [
+            {
+              "alias": "bag repairs",
+              "note": "Repair service rather than retail alone."
+            },
+            {
+              "alias": "luggage sales and repairs",
+              "note": "Use for the repair activity; add a retail category only where goods are sold."
+            }
+          ]
+        },
+        {
+          "id": "c0245",
+          "name": "Laundry and Dry Cleaning",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision of laundry, garment care and dry cleaning services. Excludes general building cleaning and vehicle washing. Includes laundromats, commercial laundry, dry cleaning and garment-care operations. General building cleaning and machine sales are separate activities; the goods or premises being cleaned help distinguish the actual service.",
+          "aliases": [
+            {
+              "alias": "coin laundromat",
+              "note": "Laundry service rather than general building cleaning."
+            },
+            {
+              "alias": "coin laundry",
+              "note": "Laundry service rather than general building cleaning."
+            },
+            {
+              "alias": "dry cleaner",
+              "note": "Laundry and garment-care service."
+            },
+            {
+              "alias": "laundromat",
+              "note": "Laundry business, including self-service operations."
+            }
+          ]
+        },
+        {
+          "id": "c0170",
+          "name": "Machinery Maintenance",
+          "kind": "activity",
+          "status": "active",
+          "description": "Maintenance, repair and servicing of machinery and equipment. Excludes equipment manufacture and agricultural machinery dealers. Includes workshops and technical contractors maintaining industrial or agricultural machinery. Manufacturing equipment and dealing in new or used machinery are separate roles; choose a named specialist repair category where more informative.",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "g016",
+      "name": "Transport and Logistics",
+      "categories": [
+        {
+          "id": "c0179",
+          "name": "Air Transport",
+          "kind": "activity",
+          "status": "active",
+          "description": "Passenger or freight transport by air. Excludes aircraft maintenance, agricultural aerial contracting and recreational flight experiences. Includes businesses primarily carrying passengers or freight by air. Agricultural aerial contracting, aircraft maintenance, dealership operations and visitor tours must be distinguished by what is actually sold to customers.",
+          "aliases": []
+        },
+        {
+          "id": "c0180",
+          "name": "Bus and Coach Transport",
+          "kind": "activity",
+          "status": "active",
+          "description": "Passenger transport by bus or coach, including charter services. Excludes tour operators primarily selling an integrated tour experience. Includes operators carrying passengers through bus, coach and charter transport. A business mainly selling a guided tour experience can use Tours and Experiences; vehicle hire without a driver is a different role.",
+          "aliases": []
+        },
+        {
+          "id": "c0163",
+          "name": "Courier",
+          "kind": "activity",
+          "status": "active",
+          "description": "Collection and delivery of parcels, documents and small consignments through a courier service. Excludes freight forwarding without delivery operations. Includes delivery networks and contractors moving parcels, documents and small consignments. Freight forwarding, warehousing and general heavy freight remain separate; add them only where the business operates those distinct services.",
+          "aliases": []
+        },
+        {
+          "id": "c0074",
+          "name": "Freight Forwarding",
+          "kind": "activity",
+          "status": "active",
+          "description": "Freight forwarding and logistics coordination. Prefer a transport mode category for a business primarily carrying the freight itself. Includes arranging freight movements, documentation and logistics between carriers and customers. Distinguish coordination from operating trucks or a warehouse; inventory handling and order fulfilment can be separate substantial activities.",
+          "aliases": [
+            {
+              "alias": "freight forwarder",
+              "note": "Freight coordination rather than carriage alone."
+            }
+          ]
+        },
+        {
+          "id": "c0182",
+          "name": "Parking Operations",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation or management of vehicle parking facilities. Excludes vehicle storage offered only as part of an unrelated business. Includes paid parking and contracted operation of parking facilities. Storage of personal goods and self-storage units are different services; incidental customer parking at another business is not a separate parking operation.",
+          "aliases": []
+        },
+        {
+          "id": "c0183",
+          "name": "Rail Transport",
+          "kind": "activity",
+          "status": "active",
+          "description": "Passenger or freight transport by rail. Excludes rail engineering and construction services. Includes businesses primarily carrying passengers or goods by rail. Engineering, construction, rolling-stock supply and maintenance are different activities, even when all customers operate in the rail sector.",
+          "aliases": []
+        },
+        {
+          "id": "c0244",
+          "name": "Road Freight Transport",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Carriage and distribution of goods by road, including truck operations. Excludes courier-only, freight forwarding-only and warehousing-only businesses. Includes road carriers earning from moving goods, including truck and related freight operations. Identify what is carried and whether the operator supplies carriage, coordination or storage; passenger transport and vehicle trading remain distinct.",
+          "aliases": [
+            {
+              "alias": "trucking",
+              "note": "Road freight operation rather than truck sales."
+            }
+          ]
+        },
+        {
+          "id": "c0169",
+          "name": "Taxi and Chauffeur Services",
+          "kind": "activity",
+          "status": "active",
+          "description": "Passenger transport by taxi, limousine, chauffeur or booked car service. Excludes self-drive rental and bus or coach transport. Includes taxi, chauffeured, limousine and booked-car passenger operations. Vehicle sales, bus/coach transport and self-drive rentals remain separate; classify the service delivered to passengers rather than the vehicle used.",
+          "aliases": []
+        },
+        {
+          "id": "c0238",
+          "name": "Warehousing and Fulfilment",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Storage, inventory handling, order fulfilment and third-party logistics services for trade customers. Excludes consumer self-storage and freight-only transport. Includes trade warehousing, inventory handling, pick/pack and third-party fulfilment. Storage and order processing differ from freight coordination or carriage; customer-controlled self-storage units are another service format.",
+          "aliases": [
+            {
+              "alias": "3PL",
+              "note": "Warehousing and fulfilment for trade customers."
+            },
+            {
+              "alias": "fulfillment",
+              "note": "Warehousing/order fulfilment rather than transport alone."
+            }
+          ]
+        },
+        {
+          "id": "c0185",
+          "name": "Water Transport",
+          "kind": "activity",
+          "status": "active",
+          "description": "Passenger or freight transport by sea or waterways. Excludes boat sales, technical marine services and recreational experiences. Includes commercial waterborne passenger and freight carriage. Recreational experiences, boat sales and marine technical work have different scopes; distinguish transport sold to customers from a vessel used within another operation.",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "g017",
+      "name": "Digital and Technology",
+      "categories": [
+        {
+          "id": "c0196",
+          "name": "Cloud and Hosting Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision of hosted computing, cloud infrastructure and website hosting services. Excludes owning a SaaS application without primarily selling hosting. Includes infrastructure, website hosting and cloud-capacity services supplied to customers. A hosted application sold to end users is SaaS rather than infrastructure hosting; the two can be separate activities where both are substantial.",
+          "aliases": [
+            {
+              "alias": "cloud hosting",
+              "note": "Hosting/infrastructure service rather than an owned SaaS product."
+            }
+          ]
+        },
+        {
+          "id": "c0195",
+          "name": "Cybersecurity",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision of cybersecurity products or services protecting information systems and data. Excludes physical security and ordinary IT support without a security focus. Includes businesses primarily supplying information-security products, assessments, monitoring or support. Generic customer IT support and physical guarding remain separate; a security feature in an unrelated product does not establish a cybersecurity business.",
+          "aliases": [
+            {
+              "alias": "cyber security",
+              "note": "Information-system security rather than physical guarding."
+            }
+          ]
+        },
+        {
+          "id": "c0197",
+          "name": "Data and AI Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision of data engineering, analytics or AI services for customers. Excludes calling an ordinary business AI-enabled and owned subscription products better described as SaaS. Includes customer data engineering, analytics and artificial-intelligence project or service operations. Distinguish supplying these services from using them internally, and from operating an owned software product or content business.",
+          "aliases": [
+            {
+              "alias": "AI services",
+              "note": "Customer data/AI services rather than merely using AI in an unrelated business."
+            }
+          ]
+        },
+        {
+          "id": "c0247",
+          "name": "IT Support and Managed Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Ad hoc and ongoing management, implementation and support of customer IT systems. Prefer a named specialist category for cybersecurity, hosting, telecommunications or development as the main activity. Excludes owned software products. Includes customer IT help, implementation, maintenance and ongoing managed support. Owned software products, hosting, development and security-specialist operations have named categories; recurring contracts alone do not define a separate category.",
+          "aliases": [
+            {
+              "alias": "computer support",
+              "note": "Customer IT support rather than owned software."
+            },
+            {
+              "alias": "General IT Services",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            },
+            {
+              "alias": "IT consultancy",
+              "note": "Implementation/support context; choose a specialist service when that is primary."
+            },
+            {
+              "alias": "Managed IT Services",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            },
+            {
+              "alias": "managed service provider",
+              "note": "Customer IT support and managed services."
+            },
+            {
+              "alias": "MSP",
+              "note": "IT managed-service provider context."
+            }
+          ]
+        },
+        {
+          "id": "c0191",
+          "name": "Online Marketplaces",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Operation of a digital platform connecting independent buyers and sellers. Excludes an online shop selling the operator's own stock and ordinary software subscriptions. Includes operating a platform that intermediates transactions between independent buyers and sellers. A shop selling its own stock is Ecommerce Retail; ordinary hosted software without that intermediary role belongs in the relevant product category.",
+          "aliases": []
+        },
+        {
+          "id": "c0258",
+          "name": "Software and App Products",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Operation of owned software or application products, including desktop and mobile products, outside the more specific SaaS and Online Marketplaces categories. Excludes development for customers. Delivery platform alone does not create another category. Includes owned licensed, desktop and mobile software products outside SaaS and marketplace scopes. Establish product ownership and delivery model; customer development, content publishing and ordinary use of software by another business are different activities.",
+          "aliases": [
+            {
+              "alias": "app business",
+              "note": "Owned non-SaaS software/app product rather than customer development."
+            },
+            {
+              "alias": "desktop software",
+              "note": "Owned desktop or licensed software product."
+            },
+            {
+              "alias": "mobile app",
+              "note": "Owned non-SaaS application product; customer development uses Software Development."
+            },
+            {
+              "alias": "Mobile Applications",
+              "note": "Previous draft label. Review the current scope; an alias is a search suggestion, not an automatic ID replacement."
+            }
+          ]
+        },
+        {
+          "id": "c0188",
+          "name": "Software as a Service (SaaS)",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Operation of owned hosted software products sold by subscription. Other owned applications use Software and App Products; marketplaces and customer development use their own categories. Can combine with Health Technology for a distinct healthcare product focus. Includes the operator's own hosted subscription software, rather than customer projects or subscription content alone. Establish product ownership, access model and the service supplied; operating online alone does not identify a software business.",
+          "aliases": [
+            {
+              "alias": "SaaS",
+              "note": "Owned subscription software service."
+            }
+          ]
+        },
+        {
+          "id": "c0189",
+          "name": "Software Development",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Design, development or maintenance of software for customers. Prefer Web Design and Development for primarily web-focused work; owned software uses Software and App Products or SaaS. Includes customer-funded software design, development and maintenance projects. Ownership of reusable tools does not by itself establish a product business; a separately operated software product can be another activity when substantial.",
+          "aliases": [
+            {
+              "alias": "software agency",
+              "note": "Software development for customers."
+            }
+          ]
+        },
+        {
+          "id": "c0217",
+          "name": "Telecommunications Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision, installation, maintenance or consulting for telecommunications networks and communication systems. Excludes owned media publishing and ordinary IT support. Includes network/service operations and communications installation, maintenance or consulting. Establish whether the business operates connectivity, advises clients or works on customer systems; ordinary software support and content publishing remain separate.",
+          "aliases": []
+        },
+        {
+          "id": "c0192",
+          "name": "Web Design and Development",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Design, development or maintenance of websites and web applications for customers. Excludes owned software or content businesses and hosting-only services. Includes agencies and contractors building or maintaining customer websites and web applications. Hosting, marketing and owned content can be separate activities; the use of a website by any business does not make it a development provider.",
+          "aliases": [
+            {
+              "alias": "digital agency",
+              "note": "Web-development-led agency candidate; choose according to actual activity."
+            },
+            {
+              "alias": "web developer",
+              "note": "Web development for customers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g018",
+      "name": "Health and Care",
+      "categories": [
+        {
+          "id": "c0001",
+          "name": "Aged Care",
+          "kind": "activity",
+          "status": "active",
+          "description": "Care and support primarily serving older people, where residential nursing care, home/community support or another named activity is not more informative. Use Residential Aged Care or Home and Community Care when that service is primary. Examples include older-person day support and care coordination where no named delivery category is more precise. An older client base alone does not turn property management, equipment retail or clinical treatment into this activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0198",
+          "name": "Allied Health",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Multidisciplinary allied health practices and allied health services not better described by a named specialist practice. Prefer Physiotherapy, Occupational Therapy or another named practice when primary. Excludes general medical practices and non-clinical support. Use for allied-health practices spanning several disciplines or a discipline without a named category. A predominantly named practice should select that specialty; broad clinical and non-clinical support categories are not interchangeable.",
+          "aliases": []
+        },
+        {
+          "id": "c0225",
+          "name": "Audiology and Hearing Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision of audiology, hearing assessment and associated hearing services. Excludes general electronics retail. Includes hearing assessment and audiology-service businesses with associated patient support. General electronics sales and manufacture of devices are different operations.",
+          "aliases": [
+            {
+              "alias": "hearing clinic",
+              "note": "Audiology/hearing service."
+            }
+          ]
+        },
+        {
+          "id": "c0031",
+          "name": "Dental Practices",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of dental clinical services. Excludes dental equipment supply and general healthcare businesses. Includes general and specialist dental practice businesses and associated patient services. Equipment distributors and product laboratories are not patient-care practices; a category label does not identify professional permissions or treatment outcomes.",
+          "aliases": []
+        },
+        {
+          "id": "c0202",
+          "name": "Disability Support Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Support services primarily for people with disability. Prefer a named clinical practice for clinical services; no funding or registration status is implied. Includes non-clinical assistance, personal support and participation services primarily for people with disability. Serving these clients does not by itself establish a medical practice, aged-care operation or a particular funding arrangement.",
+          "aliases": [
+            {
+              "alias": "disability services",
+              "note": "Disability support services; the phrase does not establish funding or registration."
+            }
+          ]
+        },
+        {
+          "id": "c0036",
+          "name": "General Clinical Healthcare",
+          "kind": "activity",
+          "status": "active",
+          "description": "Clinical healthcare not better described by a named practice or facility category, including other medical specialist and outpatient services. General primary-care practices use General Medical Practices; named allied health practices, hospitals and non-clinical support use their own categories. Use this residual human clinical category only when no named practice or facility is suitable, for example another specialist outpatient service. Identify the actual service; animal healthcare, general primary care and non-clinical support have separate scopes.",
+          "aliases": [
+            {
+              "alias": "medical clinic",
+              "note": "Other specialist/outpatient candidate; determine the clinical activity."
+            },
+            {
+              "alias": "specialist medical clinic",
+              "note": "Use only when no named specialist practice/facility category applies."
+            }
+          ]
+        },
+        {
+          "id": "c0037",
+          "name": "General Medical Practices",
+          "kind": "activity",
+          "status": "active",
+          "description": "General medical primary-care practices providing consultations and treatment by medical practitioners. Other specialist clinical services use General Clinical Healthcare unless a more specific category applies. Excludes hospitals and allied health-only practices. Examples include general primary-care and family medical clinics. Distinguish primary care from specialist outpatient services, diagnostic facilities and multidisciplinary allied-health practices by the main service actually supplied to patients.",
+          "aliases": [
+            {
+              "alias": "general practitioner",
+              "note": "General medical primary-care practice."
+            },
+            {
+              "alias": "GP clinic",
+              "note": "General medical primary-care practice."
+            },
+            {
+              "alias": "medical clinic",
+              "note": "General primary-care practice candidate."
+            }
+          ]
+        },
+        {
+          "id": "c0205",
+          "name": "Health Technology",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Supply of technology products or technical services specifically for healthcare. Can combine with a software or equipment activity when useful. Excludes businesses primarily treating or supporting patients. Includes healthcare-specific software, technical systems and equipment-service products. Identify whether the business owns products, develops for clients, supplies devices or provides patient care before choosing an additional category.",
+          "aliases": []
+        },
+        {
+          "id": "c0203",
+          "name": "Home and Community Care",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Personal care and support delivered in a person's home or community. Prefer Disability Support Services where disability support is primary; excludes residential nursing homes. Includes personal care, daily-living assistance and community support outside residential nursing facilities. Identify the client group and actual service; home delivery and older customers do not turn support into residential or clinical care.",
+          "aliases": [
+            {
+              "alias": "home care",
+              "note": "Home/community care and personal support."
+            }
+          ]
+        },
+        {
+          "id": "c0034",
+          "name": "Hospitals",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of a hospital or facility primarily providing hospital-level patient services. Excludes outpatient-only medical practices. Includes operating hospital services and their integrated patient facilities. The category is for the care operation, rather than a building, medical equipment supplier or management consultancy serving hospitals.",
+          "aliases": []
+        },
+        {
+          "id": "c0221",
+          "name": "Medical Diagnostics",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision of patient diagnostic testing, pathology or medical imaging services. Excludes general scientific laboratories and sale of diagnostic equipment. Includes businesses primarily supplying patient diagnostic testing or imaging services. General scientific laboratories and diagnostic-product suppliers have different roles; treating all medical-sector businesses as the same activity loses this distinction.",
+          "aliases": []
+        },
+        {
+          "id": "c0200",
+          "name": "Occupational Therapy",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision of occupational therapy practice services. Excludes employment recruitment and general disability support without occupational therapy services. Includes occupational-therapy practice businesses and related patient services. Staffing placement, disability support and equipment sales remain distinct; serving similar clients does not make those operations occupational therapy.",
+          "aliases": [
+            {
+              "alias": "OT practice",
+              "note": "Occupational therapy practice services."
+            }
+          ]
+        },
+        {
+          "id": "c0224",
+          "name": "Optometry and Optical Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision of optometry and optical dispensing services. May combine with a product retail category where a separate retail activity is significant. Includes optometry practices and optical dispensing operations. Establish whether clinical services, consumer product sales or both are substantial.",
+          "aliases": []
+        },
+        {
+          "id": "c0199",
+          "name": "Physiotherapy",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision of physiotherapy practice services. Excludes massage-only businesses and equipment suppliers. Includes physiotherapy practice businesses and their patient-service operations. A multidisciplinary clinic can identify another substantial practice activity; general fitness, massage and equipment sales should not be assumed from the clinical label.",
+          "aliases": [
+            {
+              "alias": "physio",
+              "note": "Physiotherapy practice services."
+            }
+          ]
+        },
+        {
+          "id": "c0222",
+          "name": "Podiatry",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision of podiatry practice services. Excludes footwear retail and general personal care. Includes podiatry practice businesses and related patient-service operations. Footwear retail and general personal care remain separate; a mixed practice should add another category only for a distinct substantial service.",
+          "aliases": []
+        },
+        {
+          "id": "c0201",
+          "name": "Psychology and Mental Health",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision of psychology, counselling or related mental health practice services. Excludes general wellbeing products and non-clinical support as the main activity. Includes psychology, counselling and related mental-health practice businesses. General personal support, wellbeing products and clinical software suppliers have different scopes; identify the service actually provided rather than the audience alone.",
+          "aliases": []
+        },
+        {
+          "id": "c0040",
+          "name": "Residential Aged Care",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation of residential aged care primarily providing ongoing nursing and personal care. Excludes independent retirement living. The main operation combines residential accommodation with ongoing nursing and personal care. Retirement living, home support and ownership of a care property alone are different activities, even where the customers are older people.",
+          "aliases": [
+            {
+              "alias": "nursing home",
+              "note": "Residential aged care rather than retirement living."
+            }
+          ]
+        },
+        {
+          "id": "c0011",
+          "name": "Retirement Village",
+          "kind": "activity",
+          "status": "active",
+          "description": "Operation or management of a retirement living community. Excludes a business primarily delivering residential nursing care. Focuses on operating and managing retirement living, rather than clinical treatment or nursing care. Accommodation ownership alone is not enough, and the category does not identify a particular ownership or resident-contract model.",
+          "aliases": []
+        },
+        {
+          "id": "c0223",
+          "name": "Speech Pathology",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision of speech pathology practice services. Excludes general tutoring and non-clinical support. Includes speech-pathology practice businesses and related patient services. Education, tutoring and non-clinical disability support can serve similar customers while remaining different business activities.",
+          "aliases": [
+            {
+              "alias": "speech therapist",
+              "note": "Speech pathology practice services."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g019",
+      "name": "Construction and Trades",
+      "categories": [
+        {
+          "id": "c0156",
+          "name": "Alarm and Security Systems",
+          "kind": "activity",
+          "status": "active",
+          "description": "Installation, servicing and maintenance of alarm and electronic physical-security systems. Excludes guarding and cybersecurity services. Includes installing, supporting and maintaining electronic alarm or physical-security systems. Physical guarding, cybersecurity and fire-protection services have different scopes; identify the system and service rather than assigning every safety business to alarms.",
+          "aliases": []
+        },
+        {
+          "id": "c0077",
+          "name": "Building and Construction",
+          "kind": "activity",
+          "status": "active",
+          "description": "Delivery of building and construction works. Excludes businesses primarily providing design or consultancy rather than construction. Includes contractors primarily delivering building projects and construction works. A named trade should be preferred when primary; property investment, design advice and routine household maintenance are different activities.",
+          "aliases": []
+        },
+        {
+          "id": "c0228",
+          "name": "Building Maintenance and Handyman Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "General building repairs and maintenance not primarily a specialist trade. Excludes garden-only maintenance and integrated facilities management. Includes businesses mainly supplying general building repairs and multi-task maintenance. Garden-only work, a named specialist trade and coordinated facilities management have more informative scopes; identify the work rather than the property alone.",
+          "aliases": []
+        },
+        {
+          "id": "c0078",
+          "name": "Civil",
+          "kind": "activity",
+          "status": "active",
+          "description": "Delivery of civil construction and infrastructure works. Use Civil Engineering Consultancy for engineering design and advisory work. Examples include contractors delivering roads, infrastructure and other civil works. Physical delivery of works is distinct from engineering design and consultancy; equipment sales and routine household maintenance are also different roles.",
+          "aliases": []
+        },
+        {
+          "id": "c0165",
+          "name": "Electrical",
+          "kind": "activity",
+          "status": "active",
+          "description": "Electrical installation, contracting, testing and maintenance services. Excludes electrical equipment manufacture and vehicle auto electrical work. Includes electrical contractors primarily supplying installation, maintenance and related technical services at customer sites. Equipment manufacture, specialist renewable/charging/storage operations and unrelated trade work must be distinguished by the actual activity.",
+          "aliases": []
+        },
+        {
+          "id": "c0231",
+          "name": "Fire Safety Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Installation, inspection and maintenance of fire protection and safety systems. Excludes general guarding, medical care and emergency public services. Includes fire-system installation, inspection and maintenance businesses. Identify whether alarms, suppression systems or broader fire-safety servicing are primary; physical guarding and general security equipment installation are different activities.",
+          "aliases": []
+        },
+        {
+          "id": "c0067",
+          "name": "Gardening and Landscaping",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of gardening, landscaping or grounds maintenance services. Excludes plant retail and agricultural crop services. Examples include lawn maintenance, gardening and landscaping contracts. Plant production, garden-product retail and irrigation-specialist work are separate scopes; an agricultural contracting business should use its rural activity instead.",
+          "aliases": [
+            {
+              "alias": "landscaper",
+              "note": "Gardening/landscaping services."
+            },
+            {
+              "alias": "lawn mowing",
+              "note": "Garden and grounds maintenance."
+            }
+          ]
+        },
+        {
+          "id": "c0227",
+          "name": "Heating and Cooling Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Installation, maintenance and repair of heating, ventilation, air conditioning and refrigeration systems. Excludes equipment manufacture. Includes HVAC and refrigeration installation, maintenance and repair businesses. Distinguish the technical service from general electrical contracting, equipment retail and manufacture, even where the same products or customer sites are involved.",
+          "aliases": [
+            {
+              "alias": "air conditioning",
+              "note": "Heating, cooling and refrigeration services."
+            },
+            {
+              "alias": "HVAC",
+              "note": "Heating, ventilation and air conditioning services."
+            }
+          ]
+        },
+        {
+          "id": "c0242",
+          "name": "Irrigation Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Installation and maintenance of domestic, landscape or agricultural irrigation systems. Excludes industrial water treatment. Additional categories can identify a distinct agricultural or landscaping activity. Includes irrigation contractors serving gardens, landscapes, farms or several customer sectors. Selling equipment alone, operating a water utility and supplying unrelated landscaping or farm services are different activities.",
+          "aliases": []
+        },
+        {
+          "id": "c0230",
+          "name": "Painting and Decorating",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Painting, decorating and associated surface-finishing services for buildings. Excludes vehicle refinishing. Includes building painting, decorating and related surface-finishing contractors. Product retail, industrial manufacture and vehicle refinishing have different scopes; choose the actual service rather than the paint or coating material alone.",
+          "aliases": []
+        },
+        {
+          "id": "c0226",
+          "name": "Plumbing and Drainage",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Plumbing, drainage and related installation or maintenance services. Excludes industrial water treatment and irrigation as the main activity. Includes plumbing and drainage contractors supplying installations, repairs and maintenance. Identify the actual trade service; customer-site work does not make the operator a general builder, water utility or irrigation specialist.",
+          "aliases": []
+        },
+        {
+          "id": "c0229",
+          "name": "Roofing and Exterior Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Installation, repair and maintenance of roofing, gutters, cladding and associated building exteriors. Excludes general construction as the main activity. Includes contractors specialising in roofs, gutters, cladding and related exterior work. Separate contracting from selling materials or manufacturing components; a generic construction category does not automatically cover every repair-only service.",
+          "aliases": []
+        },
+        {
+          "id": "c0091",
+          "name": "Welding and Fabrication Services",
+          "kind": "activity",
+          "status": "active",
+          "description": "Provision of welding and related metal joining or fabrication services. Prefer a named manufacturing category where complete product manufacture is the main activity. Includes welding contractors and fabrication-service workshops primarily supplying skilled joining or metalwork services. Manufacture of complete machinery or metal products can be a separate activity; identify what is delivered rather than the material alone.",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "g020",
+      "name": "Energy and Environment",
+      "categories": [
+        {
+          "id": "c0236",
+          "name": "Battery and Energy Storage Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Supply, installation, operation or maintenance of energy storage systems. Excludes general battery retail without an energy-storage service focus. Includes businesses supplying, installing, operating or maintaining battery energy-storage systems. Establish the commercial role and system focus; ordinary battery-product retail, general electrical contracting and generation-only operations are different activities.",
+          "aliases": []
+        },
+        {
+          "id": "c0208",
+          "name": "Electric Vehicle Charging Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Operation, installation or maintenance of EV charging infrastructure as the main business. Excludes general vehicle sales and electrical contractors without a charging focus. Includes businesses operating charging networks or primarily installing and maintaining charging infrastructure. Distinguish operating a charging network from installation and maintenance; supplying equipment alone does not establish this service activity.",
+          "aliases": [
+            {
+              "alias": "EV charging",
+              "note": "Charging infrastructure operation, installation or maintenance."
+            }
+          ]
+        },
+        {
+          "id": "c0235",
+          "name": "Energy Generation and Supply",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Operation of energy generation or supply businesses. Excludes primarily installing customer energy systems and upstream oil/gas extraction. Includes operating energy-generation or energy-supply businesses. Establish whether the operator generates, supplies, installs or maintains systems; fuel extraction and customer installation contracting are separate stages.",
+          "aliases": []
+        },
+        {
+          "id": "c0241",
+          "name": "Environmental Consulting",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Environmental assessment, monitoring and advisory services. Excludes waste collection and materials recovery operations. Includes specialist environmental assessments, monitoring and advisory services supplied to clients. Physical waste collection, remediation operations and resource recovery are different activities.",
+          "aliases": []
+        },
+        {
+          "id": "c0087",
+          "name": "Oil and Gas Businesses",
+          "kind": "activity",
+          "status": "active",
+          "description": "Oil and gas extraction, processing or specialist support operations. Excludes retail vehicle fuel stations. Includes upstream oil/gas operations and specialist processing or support businesses. Fuel retail and general electricity supply have separate scopes; renewable generation cannot be assigned here simply because both activities concern energy.",
+          "aliases": []
+        },
+        {
+          "id": "c0209",
+          "name": "Recycling and Resource Recovery",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Recovery of reusable materials from waste or end-of-use products. Excludes ordinary waste collection without recovery and businesses primarily manufacturing new goods. Includes businesses recovering reusable materials and preparing resources for further use. Producing new finished goods and collecting waste without recovery are different activities; a generic manufacturing or freight category is not an automatic substitute.",
+          "aliases": []
+        },
+        {
+          "id": "c0207",
+          "name": "Renewable Energy Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Installation, maintenance and support of renewable energy systems, including solar and wind. Excludes electricity generation/supply and businesses primarily providing EV charging or battery storage services. Includes specialist solar, wind and comparable renewable-system service businesses. Distinguish installation/maintenance from generating or selling energy, and identify any separate charging or storage operation rather than assuming every energy business is electrical contracting.",
+          "aliases": [
+            {
+              "alias": "solar installer",
+              "note": "Renewable energy installation/service rather than electricity generation."
+            }
+          ]
+        },
+        {
+          "id": "c0234",
+          "name": "Waste Collection and Management",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Collection, handling and management of waste. Prefer Recycling and Resource Recovery where materials recovery is the main activity. Includes businesses whose main role is waste collection, handling or management. Recovery of reusable material is separate when primary; operating collection vehicles does not automatically make the business a general freight carrier.",
+          "aliases": []
+        },
+        {
+          "id": "c0090",
+          "name": "Water Supply and Treatment",
+          "kind": "activity",
+          "status": "active",
+          "description": "Industrial water supply, treatment or processing operations. Excludes domestic pool maintenance and garden irrigation. Includes operating industrial water-supply, treatment and related processing services. Selling water-treatment equipment alone, maintaining pools and installing farm or garden irrigation systems are different commercial roles.",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "g021",
+      "name": "Pets and Animal Services",
+      "categories": [
+        {
+          "id": "c0157",
+          "name": "Animal Care and Grooming",
+          "kind": "activity",
+          "status": "active",
+          "description": "Animal care, grooming and related services. Prefer Pet Boarding for overnight pet boarding; excludes animal retail and veterinary clinical services. Includes non-clinical pet-care services such as grooming, washing, day care and training. Overnight boarding and veterinary clinical work have named categories.",
+          "aliases": [
+            {
+              "alias": "dog grooming",
+              "note": "Non-clinical animal care/grooming."
+            },
+            {
+              "alias": "dog wash",
+              "note": "Non-clinical animal care/grooming."
+            }
+          ]
+        },
+        {
+          "id": "c0003",
+          "name": "Pet Boarding",
+          "kind": "activity",
+          "status": "active",
+          "description": "Temporary boarding and overnight care of pets. Excludes breeding, animal retail and veterinary practices. Includes boarding kennels and catteries whose main service is temporary overnight accommodation. Day grooming and clinical veterinary care remain separate; a combined operator can identify those activities independently.",
+          "aliases": [
+            {
+              "alias": "boarding kennels",
+              "note": "Overnight pet boarding."
+            }
+          ]
+        },
+        {
+          "id": "c0220",
+          "name": "Veterinary Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Provision of veterinary clinical services for animals. Excludes pet retail, boarding and non-clinical grooming or care. Includes clinical animal-health practice businesses. Non-clinical grooming, boarding and product retail remain separate; a substantial independently operated retail or boarding service can be an additional activity when justified.",
+          "aliases": [
+            {
+              "alias": "vet clinic",
+              "note": "Veterinary clinical services."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g022",
+      "name": "Property and Facilities",
+      "categories": [
+        {
+          "id": "c0246",
+          "name": "Cleaning Services",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Commercial, domestic and specialist cleaning of buildings and facilities. Excludes laundry/dry cleaning, vehicle washing and specialist pest control. Includes businesses mainly cleaning buildings, premises and facilities for clients. Garment care, vehicle washing and specialist pest management have named scopes; equipment sales alone does not establish a cleaning-service business.",
+          "aliases": []
+        },
+        {
+          "id": "c0232",
+          "name": "Facilities Management",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Coordinated management of building operations and contracted maintenance services. Excludes a single specialist trade and real estate sales agencies. Includes businesses coordinating building operations and several maintenance/service contracts. Pure real estate agency, strata administration and a single trade have separate scopes; a management activity is not established by property ownership alone.",
+          "aliases": []
+        },
+        {
+          "id": "c0174",
+          "name": "Pest Management",
+          "kind": "activity",
+          "status": "active",
+          "description": "Pest management, inspection and treatment services. Excludes agricultural hunting/trapping and general cleaning as the main activity. Includes pest inspection, prevention and treatment businesses for buildings and other customer sites. General cleaning, garden maintenance and agricultural wildlife contracting have different scopes; the relevant service must be identified.",
+          "aliases": []
+        },
+        {
+          "id": "c0175",
+          "name": "Pool and Spa Maintenance",
+          "kind": "activity",
+          "status": "active",
+          "description": "Pool, spa and associated domestic water-system cleaning and maintenance services. Excludes industrial water treatment and irrigation contracting. Includes pool and spa cleaning, routine maintenance and associated domestic system services. Construction of a pool, industrial water treatment and irrigation contracting are different activities rather than automatic extensions of maintenance.",
+          "aliases": []
+        },
+        {
+          "id": "c0119",
+          "name": "Real Estate and Property Management",
+          "kind": "activity",
+          "status": "active",
+          "description": "Real estate agency, property management and related property service businesses. Excludes a property asset sale without an operating service business. Includes real estate agencies and third-party property management services. Facilities coordination, strata administration and accommodation management rights have separate scopes; a sale of property without an operating service business is not enough.",
+          "aliases": []
+        },
+        {
+          "id": "c0239",
+          "name": "Self Storage",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Operation of customer-controlled storage units and associated storage services. Excludes trade warehousing and vehicle parking as the main activity. Includes operating customer-accessed storage units and associated self-storage services. This differs from hiring equipment, managing property for others and handling trade inventory; the operated storage service matters rather than property ownership alone.",
+          "aliases": []
+        },
+        {
+          "id": "c0233",
+          "name": "Strata and Body Corporate Management",
+          "kind": "activity",
+          "status": "proposed",
+          "description": "Administration and management services for strata or community-title schemes. Excludes accommodation management rights and property asset sales. Includes administrative and management services for strata and community-title schemes. Accommodation letting, general tenancy management, coordinated maintenance and property investment are different roles, even when conducted for the same building.",
+          "aliases": [
+            {
+              "alias": "body corporate",
+              "note": "Strata/body-corporate management."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g023",
+      "name": "Business Characteristics",
+      "categories": [
+        {
+          "id": "c0260",
+          "name": "Franchise",
+          "kind": "characteristic",
+          "status": "proposed",
+          "description": "Operates under a franchise agreement using an established brand and business system. Combine with the activity actually carried out, such as food service, retail or cleaning. This characteristic does not identify the industry, distinguish a new franchise opportunity from an existing business, or establish the terms or transferability of the agreement.",
+          "aliases": [
+            {
+              "alias": "franchised business",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "franchise business",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            }
+          ]
+        },
+        {
+          "id": "c0261",
+          "name": "Home Based",
+          "kind": "characteristic",
+          "status": "proposed",
+          "description": "Operates principally from a residential home rather than dedicated commercial premises. Combine with the goods or services the business provides. Home administration alone does not establish that an otherwise premises-based operation is home based. This characteristic does not imply that the home is included in the sale or that the business is relocatable.",
+          "aliases": [
+            {
+              "alias": "home business",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "home-based business",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "work from home",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            }
+          ]
+        },
+        {
+          "id": "c0262",
+          "name": "Online Operation",
+          "kind": "characteristic",
+          "status": "proposed",
+          "description": "Conducts a substantial part of its core business through websites, apps or other online channels. It can apply to retail, software, content or services when online delivery or transactions are central to the operation. A marketing website alone is insufficient. Dedicated premises can also apply; this characteristic does not identify an activity or imply an online-only business.",
+          "aliases": [
+            {
+              "alias": "online business",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "internet business",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "web based business",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "online business with premises",
+              "note": "Suggests both Online Operation and Premises Based; neither establishes the business activity."
+            }
+          ]
+        },
+        {
+          "id": "c0263",
+          "name": "Mobile Operation",
+          "kind": "characteristic",
+          "status": "proposed",
+          "description": "Delivers its core goods or services by travelling to customers or operating from a vehicle or movable unit. Combine with the actual activity, such as repairs, food service or cleaning. Routine delivery by a premises-based business does not by itself establish a mobile operation. Mobility does not imply that the business can transfer to another service territory.",
+          "aliases": [
+            {
+              "alias": "mobile business",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "mobile services",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            }
+          ]
+        },
+        {
+          "id": "c0264",
+          "name": "Relocatable",
+          "kind": "characteristic",
+          "status": "proposed",
+          "description": "Can transfer its operating base to another location while retaining the core business being offered. Use where the seller has established that the relevant customer relationships, assets and operating arrangements can support a move. Home-based, online or mobile operation alone is insufficient. This characteristic does not promise that a transfer is unrestricted or cost free.",
+          "aliases": [
+            {
+              "alias": "relocatable business",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "location independent",
+              "note": "Discovery term only; confirm the operating base can actually move before selecting Relocatable."
+            }
+          ]
+        },
+        {
+          "id": "c0265",
+          "name": "Business with Property",
+          "kind": "characteristic",
+          "status": "proposed",
+          "description": "Offers the operating business together with ownership of the property used by that business as part of the sale. Combine with the operating activity. Leasing or occupying premises alone does not qualify, and a separate optional property opportunity should be described according to the actual sale arrangement. This characteristic does not cover a property-only sale.",
+          "aliases": [
+            {
+              "alias": "business and property",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "business property included",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "freehold going concern",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            }
+          ]
+        },
+        {
+          "id": "c0266",
+          "name": "Owner Operated",
+          "kind": "characteristic",
+          "status": "proposed",
+          "description": "Has an owner actively involved in day-to-day operation or delivery of its core goods or services. Combine with the business activity. This characteristic describes the current operating arrangement, rather than a promise about a buyer's future workload. An owner can work alongside a manager; owner involvement and under-management arrangements are not automatically mutually exclusive.",
+          "aliases": [
+            {
+              "alias": "owner operator",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "owner managed",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "owner run",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            }
+          ]
+        },
+        {
+          "id": "c0267",
+          "name": "Under Management",
+          "kind": "characteristic",
+          "status": "proposed",
+          "description": "Has a manager responsible for day-to-day operations while the owner primarily provides oversight. Combine with the business activity and verify the actual division of responsibilities. An owner may still work in the business. This characteristic does not promise passive income, an absent owner, guaranteed staffing continuity or a particular future workload for the buyer.",
+          "aliases": [
+            {
+              "alias": "managed business",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "manager operated",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "management in place",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            }
+          ]
+        },
+        {
+          "id": "c0268",
+          "name": "Premises Based",
+          "kind": "characteristic",
+          "status": "proposed",
+          "description": "Uses dedicated operating premises, whether leased or owned, for a substantial part of its core activity. Combine with the goods or services provided. A business may also operate online or deliver mobile services. Occupying premises does not mean ownership of the property is included in the sale; use Business with Property only for that separate fact.",
+          "aliases": [
+            {
+              "alias": "commercial premises",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "business premises",
+              "note": "Business characteristic only; select at least one activity and confirm the definition against the actual operation."
+            },
+            {
+              "alias": "online business with premises",
+              "note": "Suggests both Online Operation and Premises Based; neither establishes the business activity."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

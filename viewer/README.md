@@ -1,6 +1,6 @@
 # Open Business Sale Classification explorer
 
-A static, read-only interface for non-technical stakeholders. The root homepage loads the canonical `taxonomy/categories.json`; category records, aliases, counts and version metadata are not copied into the viewer.
+Browse the published [catalogue explorer](https://subtledifference.github.io/open-business-sale-classification/). This guide covers local previews and maintenance of the static, read-only interface. The root homepage loads the canonical `taxonomy/categories.json`; category records, aliases, counts and version metadata are not copied into the viewer.
 
 The three frontend files are root `index.html`, `viewer/styles.css` and `viewer/app.js`. There are no frontend packages, build tools, remote fonts, analytics, backend or stored selections. Browsing and the example builder run in the browser. Only loading the static files and JSON makes requests; selections are not transmitted. Copying JSON uses the browser clipboard, with a manual-copy fallback.
 
@@ -32,7 +32,7 @@ taxonomy/
 
 Serve the repository root with both folders intact. The page references `./viewer/styles.css` and `./viewer/app.js`; its data request is `./taxonomy/categories.json`. These relative paths preserve a project prefix such as `/open-business-sale-classification/`.
 
-For GitHub Pages, use **Deploy from a branch → main → /(root)**. The empty `.nojekyll` skips Jekyll processing; no custom workflow or build framework is required. See the [exact deployment and activation steps](../docs/github-pages.md). Pages has not been enabled or published.
+For GitHub Pages, use **Deploy from a branch → main → /(root)**. The empty `.nojekyll` skips Jekyll processing; no custom workflow or build framework is required. See the [hosting configuration and deployment checks](../docs/github-pages.md). The published explorer uses the project root URL linked above.
 
 ## Behaviour
 

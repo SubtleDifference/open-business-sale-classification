@@ -1,6 +1,6 @@
 # GitHub Pages for Open Business Sale Classification
 
-The explorer is prepared for the **root URL of a project site** at `https://subtledifference.github.io/open-business-sale-classification/`, using the intended repository `SubtleDifference/open-business-sale-classification`. This guide describes deployment after publication approval; the snapshot itself does not deploy anything.
+The explorer is published at **[Open Business Sale Classification](https://subtledifference.github.io/open-business-sale-classification/)** from the public [repository](https://github.com/SubtleDifference/open-business-sale-classification). This guide covers hosting configuration, local verification and deployment checks for maintainers.
 
 ## Publishing source
 
@@ -37,18 +37,17 @@ For a project at `/open-business-sale-classification/`, the corresponding paths 
 
 Do not select `/docs` or publish only `viewer/`: the entry point and required data are in the repository root layout. No domain, repository name or absolute site-root path is embedded in the frontend.
 
-## Activate only after publication approval
+## Configuration and deployment checks
 
-1. Review the draft scope and [release checklist](../ROADMAP.md). Obtain explicit approval for repository publication and site deployment.
-2. Publish the approved files to `SubtleDifference/open-business-sale-classification` on `main`. Keep the root layout intact.
-3. In the publication repository, open **Settings → Pages**.
-4. Under **Build and deployment → Source**, choose **Deploy from a branch**.
-5. Choose **main** and **/(root)**, then **Save**. Leave the custom-domain field empty.
-6. Wait for the managed **Pages build and deployment** run to finish. If it is blocked by organisation policy, have an authorised owner review that policy; do not add a custom workflow as a workaround.
-7. Use **Visit site** in Pages settings. The default URL for the intended owner/name is `https://subtledifference.github.io/open-business-sale-classification/`; use the actual site URL displayed by GitHub.
-8. Check that the address stays at the project root, styles and data load, search works, and a valid example JSON can be copied. Confirm the JSON download returns the released catalogue version. Subsequent approved pushes to the publishing source update the site.
+The site is already published. To inspect or reproduce its branch-based configuration:
 
-Enabling Pages is a separate publication action. Use the local preview below while reviewing a draft.
+1. Open the repository's **Settings → Pages**.
+2. Under **Build and deployment → Source**, use **Deploy from a branch**.
+3. Use **main** and **/(root)**. Save only when an authorised configuration change is needed. No custom domain is required.
+4. After approved changes are pushed to the publishing source, check the managed **Pages build and deployment** run. If organisation policy blocks deployment, have an authorised owner review it.
+5. Use **Visit site** to check the [published explorer](https://subtledifference.github.io/open-business-sale-classification/). Confirm that styles and data load, search works, and a valid example JSON can be copied. Check that the JSON download contains the expected catalogue version.
+
+Changes pushed to the publishing source update the live site. Review the draft scope and [v1.0 roadmap](../ROADMAP.md) as relevant; publication does not imply a stable v1.0 release or industry endorsement.
 
 ## Verify locally
 
@@ -67,4 +66,4 @@ python tools/catalogue.py --check
 python -m unittest discover -s tests
 ```
 
-Local browser testing verifies the root entry point and relative requests under a project prefix. Actual GitHub-hosted delivery, organisation permissions and deployment completion remain unverified until Pages is explicitly enabled and deployed after approval.
+Local checks verify the root entry point and relative paths under a project prefix. After each deployment, check the published site as well; a successful local preview alone does not establish successful hosted delivery.

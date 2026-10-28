@@ -1,30 +1,41 @@
-# Open Business Sale Classification
+# Open Business Sale Classification (OBSC)
 
-An open source classification reference for businesses for sale, providing shared business activities, optional characteristics and stable identifiers for interoperability between platforms.
+Open Business Sale Classification is an open source reference for classifying businesses for sale. It helps buyers discover relevant businesses and supports consistent data exchange between platforms.
 
-**Draft open source classification initiative (`0.5.0-draft.1`).** No portal or industry-body endorsement is claimed.
+**Current catalogue: draft `0.5.0-draft.1`.** Adoption is voluntary; no formal industry endorsement or established adoption is claimed.
 
-The visual explorer starts at [index.html](index.html). Browse activities, read definitions and try a classification. See [local running instructions](viewer/README.md) and [GitHub Pages deployment steps](docs/github-pages.md).
+## Explore the catalogue
+
+**[Open the catalogue explorer](https://subtledifference.github.io/open-business-sale-classification/)**
+
+Browse 196 business activities, explore nine optional Business Characteristics, search names and aliases, read definitions, and try creating an example classification with shared IDs.
+
+## Use OBSC in your platform
+
+- [Canonical JSON catalogue](taxonomy/categories.json) — activities, characteristics, definitions, embedded aliases and version metadata.
+- [Category CSV](taxonomy/categories.csv) and [alias CSV](taxonomy/aliases.csv) — editable sources.
+- [Interoperability and integration guide](docs/integration.md) — mapping, exchange examples and lookup tools.
+
+Upload providers can adopt shared IDs or map existing categories to them. Advertising portals can map those IDs to their own categories. Neither needs to replace its existing names, codes or category structures.
+
+Shared IDs do not establish a working integration: sender and receiver agree on supported formats, catalogue versions and mapping behaviour. Existing feeds and APIs can continue; no software purchase or hosted service is required.
+
+## Contribute
+
+Feedback and contributions are welcome from brokers, portals, industry organisations and software providers. Read the [contribution guidelines](CONTRIBUTING.md) and [draft review questions](docs/review-notes.md).
+
+Subtle Difference is the original author and maintainer. Contributions are assessed using the same provider-neutral criteria.
 
 ## Classification principles
 
 - **Category necessity:** Add a category only when an existing activity, or a combination of up to three activities, cannot reasonably describe the business.
-- **Buyer-focused classification:** Optimise for buyers searching for businesses, not brokers advertising them.
+- **Buyer discovery:** Optimise classification for buyers finding relevant businesses, not additional advertising exposure.
 
-These principles guide activities, definitions, aliases and Business Characteristics. See the [contribution criteria](CONTRIBUTING.md#category-proposals).
+Select **1 to 3 business activities** describing what the business does, plus **0 to 3 optional Business Characteristics** describing how it operates or is offered for sale. The limits are independent: characteristics do not consume activity selections or replace an activity. Three is a maximum, not a target; select only entries supported by the business details.
 
-## Use the catalogue
+Providers may support all, some or none of the characteristics. See the [full selection rules](taxonomy/README.md).
 
-Download [categories.json](taxonomy/categories.json) for 196 activities, nine optional Business Characteristics, definitions and search aliases in 20 browsing groups. Editable sources are [categories.csv](taxonomy/categories.csv) and [aliases.csv](taxonomy/aliases.csv).
-
-Use each record's stable `id` and `kind`:
-
-- **Activities: 1 to 3.** Describe what the business actually does. Three is a maximum, not a target.
-- **Characteristics: 0 to 3, independently.** Optional operating or sale metadata; they do not consume activity selections or replace an activity.
-
-Select only relevant entries supported by the business details. Providers may support all, some or none of the characteristics. See the [selection rules](taxonomy/README.md).
-
-This example selects Cafes and Coffee Shops + Bakery, with Franchise + Under Management metadata:
+This example selects Cafes and Coffee Shops + Bakery, with Franchise + Under Management:
 
 ```json
 {
@@ -35,19 +46,6 @@ This example selects Cafes and Coffee Shops + Bakery, with Franchise + Under Man
 }
 ```
 
-## Exchange classifications
+## Licensing
 
-An upload provider can map its own categories to shared IDs; each receiving portal can map those IDs to its own categories. Both keep their names, groups and internal codes. Receiver-maintained mappings can serve multiple upload providers and may remain private.
-
-Shared IDs do not establish a working integration. Sender and receiver must agree on format, catalogue version and classification behaviour. Existing APIs, XML feeds and portal-specific mappings can continue; no new protocol, paid software, hosted service or adopter registration is required. See the [interoperability and integration guide](docs/integration.md).
-
-Optional local tools:
-
-```text
-python tools/lookup.py --search "pizza shop"
-python tools/lookup.py --activities c0053 c0051 --characteristics c0260 c0267
-```
-
-Validation checks classification only; search suggests candidates without selecting one.
-
-[Contribute](CONTRIBUTING.md), read the [review questions](docs/review-notes.md), or see [optional adoption records](ADOPTION.md). Licensed under [Apache 2.0](LICENSE); see [licensing](LICENSING.md).
+Licensed under [Apache 2.0](LICENSE), with attribution in [NOTICE](NOTICE). See the [licensing summary](LICENSING.md). No portal or industry-body endorsement is claimed.

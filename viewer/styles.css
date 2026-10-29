@@ -185,6 +185,7 @@ strong {
   letter-spacing:.04em;
 }
 .site-header nav {
+  flex-wrap:wrap;
   display:flex;
   gap:25px;
   font-size:.83rem;
@@ -769,6 +770,7 @@ strong {
   font-size:.72rem;
 }
 .site-footer>div {
+  flex-wrap:wrap;
   display:flex;
   gap:20px;
 }
